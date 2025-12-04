@@ -45,7 +45,7 @@ const apps = [
         v-for="app in apps" 
         :key="app.id" 
         :to="`/${app.id}`" 
-        class="group bg-white dark:bg-slate-800 rounded-2xl p-8 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl transition-all duration-300 ease-out hover:-translate-y-1 relative overflow-hidden flex flex-col h-full"
+        class="group bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 relative overflow-hidden"
         :class="app.bgHover"
       >
         <!-- Top Accent Line -->

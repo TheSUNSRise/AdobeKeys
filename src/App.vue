@@ -39,7 +39,7 @@ onMounted(() => {
 
 <template>
   <div class="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 font-sans selection:bg-indigo-100 selection:text-indigo-700 dark:selection:bg-indigo-900 dark:selection:text-indigo-300 transition-colors duration-300">
-    <header class="bg-white/80 dark:bg-slate-900/80 backdrop-blur-md sticky top-0 z-10 border-b border-slate-200 dark:border-slate-700 transition-colors duration-300">
+    <header class="bg-white dark:bg-slate-900 sticky top-0 z-10 shadow-sm transition-colors duration-300">
       <div class="container mx-auto px-4 h-16 flex items-center justify-between">
         <router-link to="/" class="text-xl font-bold tracking-tight text-slate-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
           Adobe<span class="text-indigo-600 dark:text-indigo-400">Keys</span>

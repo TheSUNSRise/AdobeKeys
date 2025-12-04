@@ -4,7 +4,7 @@ import { useRoute } from 'vue-router';
 import { useLocale } from '../composables/useLocale';
 import { useOS } from '../composables/useOS';
 import { useFavorites } from '../composables/useFavorites';
-import { LayoutGrid, List, Star, Menu } from 'lucide-vue-next';
+import { LayoutGrid, List, Menu } from 'lucide-vue-next';
 
 interface LocalizedString {
   en: string;
@@ -158,11 +158,11 @@ const scrollToCategory = (name: string) => {
           v-model="searchQuery"
           type="text" 
           :placeholder="t.searchPlaceholder"
-          class="w-full pl-12 pr-4 py-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-sm text-slate-700 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all text-base"
+          class="w-full pl-12 pr-4 py-3 bg-white dark:bg-slate-800 rounded-xl shadow-sm text-slate-700 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all text-base"
         >
       </div>
 
-      <div class="flex items-center bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-1 shadow-sm flex-shrink-0">
+      <div class="flex items-center bg-white dark:bg-slate-800 rounded-xl p-1 shadow-sm flex-shrink-0">
         <button 
           @click="viewMode = 'grid'"
           class="p-2 rounded-lg transition-all duration-200 focus:outline-none"
@@ -201,21 +201,22 @@ const scrollToCategory = (name: string) => {
           </h2>
           
           <div class="grid gap-3" :class="viewMode === 'grid' ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1'">
-            <div v-for="shortcut in group.items" :key="shortcut.key + shortcut.description[locale]"
-              class="group flex items-center justify-between bg-white dark:bg-slate-800 px-5 py-4 rounded-lg border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-md transition-all duration-200 hover:border-indigo-100 dark:hover:border-indigo-900/50 relative"
-              :class="{'flex-col items-start gap-3': viewMode === 'grid', 'flex-row': viewMode === 'list'}"
-            >
+          <div v-for="shortcut in group.items" :key="shortcut.key + shortcut.description[locale]"
+            class="group flex items-center justify-between bg-white dark:bg-slate-800 px-5 py-4 rounded-lg shadow-sm relative"
+            :class="{'flex-col items-start gap-3': viewMode === 'grid', 'flex-row': viewMode === 'list'}"
+          >
               <button 
                 @click.stop="toggleFavorite(appId, generateId(shortcut))"
-                class="p-1.5 rounded-full text-slate-300 hover:text-yellow-400 dark:text-slate-600 dark:hover:text-yellow-400 transition-colors focus:outline-none flex-shrink-0"
+                class="p-1.5 rounded-full transition-colors duration-200 focus:outline-none flex-shrink-0 bg-transparent border-none outline-none ring-0"
                 :class="{
                   'absolute top-2 right-2': viewMode === 'grid',
                   'mr-4 relative': viewMode === 'list',
-                  'text-yellow-400 dark:text-yellow-400': isFavorite(appId, generateId(shortcut))
+                  'text-pink-500': isFavorite(appId, generateId(shortcut)),
+                  'text-slate-200 dark:text-slate-700': !isFavorite(appId, generateId(shortcut))
                 }"
                 title="Toggle Favorite"
               >
-                <Star class="w-4 h-4" :class="{'fill-current': isFavorite(appId, generateId(shortcut))}" />
+                <span class="text-sm leading-none flex items-center justify-center">{{ isFavorite(appId, generateId(shortcut)) ? '★' : '☆' }}</span>
               </button>
 
               <span class="text-slate-700 dark:text-slate-300 font-medium transition-colors break-words"
@@ -226,7 +227,7 @@ const scrollToCategory = (name: string) => {
                 <kbd 
                   v-for="(k, index) in splitKeys(shortcut.key)" 
                   :key="index"
-                  class="min-w-[1.5rem] text-center px-2 py-1 bg-slate-100 dark:bg-slate-700 border border-slate-300 dark:border-slate-600 rounded text-xs font-mono text-slate-600 dark:text-slate-200 font-bold shadow-[0_2px_0_#cbd5e1] dark:shadow-[0_2px_0_#475569] transition-colors whitespace-nowrap"
+                  class="min-w-[1.5rem] text-center px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded text-xs font-mono text-slate-600 dark:text-slate-200 font-bold shadow-sm transition-colors whitespace-nowrap"
                 >
                   {{ k }}
                 </kbd>
@@ -251,9 +252,9 @@ const scrollToCategory = (name: string) => {
         leave-from-class="translate-y-0 opacity-100 scale-100" 
         leave-to-class="translate-y-4 opacity-0 scale-95"
       >
-        <div v-if="showToc" class="mb-4 w-64 bg-white/90 dark:bg-slate-800/90 backdrop-blur-md rounded-2xl border border-slate-200 dark:border-slate-700 shadow-2xl overflow-hidden origin-bottom-right">
+        <div v-if="showToc" class="mb-4 w-64 bg-white/90 dark:bg-slate-800/90 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden origin-bottom-right">
           <div class="max-h-[60vh] overflow-y-auto custom-scrollbar py-3">
-            <div class="flex items-center justify-between px-5 py-2 sticky top-0 bg-white/95 dark:bg-slate-800/95 backdrop-blur-sm z-10 border-b border-slate-100 dark:border-slate-700/50 mb-2">
+            <div class="flex items-center justify-between px-5 py-2 sticky top-0 bg-white/95 dark:bg-slate-800/95 backdrop-blur-sm z-10 mb-2">
               <h3 class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">
                 {{ locale === 'zh' ? '目录' : 'Contents' }}
               </h3>
@@ -287,19 +288,3 @@ const scrollToCategory = (name: string) => {
 
   </div>
 </template>
-
-<style scoped>
-.custom-scrollbar::-webkit-scrollbar {
-  width: 4px;
-}
-.custom-scrollbar::-webkit-scrollbar-track {
-  background: transparent;
-}
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #cbd5e1;
-  border-radius: 20px;
-}
-.dark .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #475569;
-}
-</style>
