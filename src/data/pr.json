@@ -15,6 +15,11 @@
     "category": { "en": "File", "zh": "文件" }
   },
   {
+    "key": "Enter",
+    "description": { "en": "Render Effects in Work Area", "zh": "渲染工作区效果" },
+    "category": { "en": "Sequence", "zh": "序列" }
+  },
+  {
     "key": "Ctrl + Z",
     "description": { "en": "Undo", "zh": "撤销" },
     "category": { "en": "Edit", "zh": "编辑" }
@@ -38,6 +43,21 @@
     "key": "Ctrl + Alt + V",
     "description": { "en": "Paste Attributes", "zh": "粘贴属性" },
     "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + L",
+    "description": { "en": "Link/Unlink", "zh": "链接/取消链接" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + R",
+    "description": { "en": "Speed/Duration", "zh": "速度/持续时间" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "G",
+    "description": { "en": "Audio Gain", "zh": "音频增益" },
+    "category": { "en": "Clip", "zh": "素材" }
   },
   {
     "key": "V",
@@ -140,6 +160,11 @@
     "category": { "en": "Timeline", "zh": "时间轴" }
   },
   {
+    "key": "Shift + Delete",
+    "description": { "en": "Ripple Delete", "zh": "波纹删除" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
     "key": "\\",
     "description": { "en": "Zoom to Sequence", "zh": "缩放至序列" },
     "category": { "en": "Timeline", "zh": "时间轴" }
@@ -153,5 +178,10 @@
     "key": "-",
     "description": { "en": "Zoom Out", "zh": "缩小时间轴" },
     "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "`",
+    "description": { "en": "Maximize Panel", "zh": "最大化面板" },
+    "category": { "en": "Window", "zh": "窗口" }
   }
 ]

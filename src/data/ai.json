@@ -25,6 +25,11 @@
     "category": { "en": "File", "zh": "文件" }
   },
   {
+    "key": "Ctrl + Shift + Alt + S",
+    "description": { "en": "Save for Web", "zh": "存储为 Web 所用格式" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
     "key": "Ctrl + Z",
     "description": { "en": "Undo", "zh": "撤销" },
     "category": { "en": "Edit", "zh": "编辑" }
@@ -53,6 +58,11 @@
     "key": "Ctrl + B",
     "description": { "en": "Paste in Back", "zh": "贴在后面" },
     "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + D",
+    "description": { "en": "Transform Again", "zh": "再次变换" },
+    "category": { "en": "Object", "zh": "对象" }
   },
   {
     "key": "V",
@@ -115,6 +125,11 @@
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
+    "key": "Shift + O",
+    "description": { "en": "Artboard Tool", "zh": "画板工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
     "key": "G",
     "description": { "en": "Gradient Tool", "zh": "渐变工具" },
     "category": { "en": "Tools", "zh": "工具" }
@@ -122,6 +137,11 @@
   {
     "key": "I",
     "description": { "en": "Eyedropper Tool", "zh": "吸管工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + X",
+    "description": { "en": "Swap Fill/Stroke", "zh": "互换填色/描边" },
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
@@ -185,8 +205,18 @@
     "category": { "en": "View", "zh": "视图" }
   },
   {
+    "key": "Ctrl + \"",
+    "description": { "en": "Show/Hide Grid", "zh": "显示/隐藏网格" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
     "key": "Ctrl + Y",
     "description": { "en": "Outline View", "zh": "轮廓视图" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + 0",
+    "description": { "en": "Fit Artboard", "zh": "画板适合窗口" },
     "category": { "en": "View", "zh": "视图" }
   }
 ]
