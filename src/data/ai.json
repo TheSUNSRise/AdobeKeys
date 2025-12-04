@@ -1,0 +1,192 @@
+[
+  {
+    "key": "Ctrl + S",
+    "description": { "en": "Save", "zh": "保存" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Shift + S",
+    "description": { "en": "Save As", "zh": "另存为" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + N",
+    "description": { "en": "New Document", "zh": "新建文档" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + O",
+    "description": { "en": "Open File", "zh": "打开文件" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Shift + P",
+    "description": { "en": "Place", "zh": "置入" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Z",
+    "description": { "en": "Undo", "zh": "撤销" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + Z",
+    "description": { "en": "Redo", "zh": "重做" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + C",
+    "description": { "en": "Copy", "zh": "复制" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + V",
+    "description": { "en": "Paste", "zh": "粘贴" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + F",
+    "description": { "en": "Paste in Front", "zh": "贴在前面" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + B",
+    "description": { "en": "Paste in Back", "zh": "贴在后面" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "V",
+    "description": { "en": "Selection Tool", "zh": "选择工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "A",
+    "description": { "en": "Direct Selection Tool", "zh": "直接选择工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Q",
+    "description": { "en": "Lasso Tool", "zh": "套索工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "P",
+    "description": { "en": "Pen Tool", "zh": "钢笔工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + ~",
+    "description": { "en": "Curvature Tool", "zh": "曲率工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "T",
+    "description": { "en": "Type Tool", "zh": "文字工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "\\",
+    "description": { "en": "Line Segment Tool", "zh": "直线段工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "M",
+    "description": { "en": "Rectangle Tool", "zh": "矩形工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "L",
+    "description": { "en": "Ellipse Tool", "zh": "椭圆工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "R",
+    "description": { "en": "Rotate Tool", "zh": "旋转工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "S",
+    "description": { "en": "Scale Tool", "zh": "比例缩放工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + M",
+    "description": { "en": "Shape Builder Tool", "zh": "形状生成器工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "G",
+    "description": { "en": "Gradient Tool", "zh": "渐变工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "I",
+    "description": { "en": "Eyedropper Tool", "zh": "吸管工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + Ctrl + O",
+    "description": { "en": "Create Outlines", "zh": "创建轮廓" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + G",
+    "description": { "en": "Group", "zh": "编组" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Shift + G",
+    "description": { "en": "Ungroup", "zh": "取消编组" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + 7",
+    "description": { "en": "Make Clipping Mask", "zh": "建立剪切蒙版" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + 7",
+    "description": { "en": "Release Clipping Mask", "zh": "释放剪切蒙版" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + 2",
+    "description": { "en": "Lock Selection", "zh": "锁定所选对象" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + 2",
+    "description": { "en": "Unlock All", "zh": "全部解锁" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + [",
+    "description": { "en": "Send Backward", "zh": "后移一层" },
+    "category": { "en": "Arrange", "zh": "排列" }
+  },
+  {
+    "key": "Ctrl + ]",
+    "description": { "en": "Bring Forward", "zh": "前移一层" },
+    "category": { "en": "Arrange", "zh": "排列" }
+  },
+  {
+    "key": "Ctrl + Shift + [",
+    "description": { "en": "Send to Back", "zh": "置于底层" },
+    "category": { "en": "Arrange", "zh": "排列" }
+  },
+  {
+    "key": "Ctrl + Shift + ]",
+    "description": { "en": "Bring to Front", "zh": "置于顶层" },
+    "category": { "en": "Arrange", "zh": "排列" }
+  },
+  {
+    "key": "Ctrl + ;",
+    "description": { "en": "Show/Hide Guides", "zh": "显示/隐藏参考线" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Y",
+    "description": { "en": "Outline View", "zh": "轮廓视图" },
+    "category": { "en": "View", "zh": "视图" }
+  }
+]

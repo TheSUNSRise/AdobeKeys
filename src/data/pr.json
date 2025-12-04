@@ -1,0 +1,157 @@
+[
+  {
+    "key": "Ctrl + S",
+    "description": { "en": "Save Project", "zh": "保存项目" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + I",
+    "description": { "en": "Import", "zh": "导入" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + M",
+    "description": { "en": "Export Media", "zh": "导出媒体" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Z",
+    "description": { "en": "Undo", "zh": "撤销" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + Z",
+    "description": { "en": "Redo", "zh": "重做" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + C",
+    "description": { "en": "Copy", "zh": "复制" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + V",
+    "description": { "en": "Paste", "zh": "粘贴" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Alt + V",
+    "description": { "en": "Paste Attributes", "zh": "粘贴属性" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "V",
+    "description": { "en": "Selection Tool", "zh": "选择工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "C",
+    "description": { "en": "Razor Tool", "zh": "剃刀工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "A",
+    "description": { "en": "Track Select Forward", "zh": "向前选择轨道" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + A",
+    "description": { "en": "Track Select Backward", "zh": "向后选择轨道" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "B",
+    "description": { "en": "Ripple Edit Tool", "zh": "波纹编辑工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "N",
+    "description": { "en": "Rolling Edit Tool", "zh": "滚动编辑工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "R",
+    "description": { "en": "Rate Stretch Tool", "zh": "比率拉伸工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Y",
+    "description": { "en": "Slip Tool", "zh": "外滑工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "U",
+    "description": { "en": "Slide Tool", "zh": "内滑工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "P",
+    "description": { "en": "Pen Tool", "zh": "钢笔工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "H",
+    "description": { "en": "Hand Tool", "zh": "抓手工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "T",
+    "description": { "en": "Type Tool", "zh": "文字工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Space",
+    "description": { "en": "Play/Stop", "zh": "播放/停止" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "J",
+    "description": { "en": "Shuttle Left", "zh": "倒放" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "K",
+    "description": { "en": "Shuttle Stop", "zh": "停止播放" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "L",
+    "description": { "en": "Shuttle Right", "zh": "快进" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "I",
+    "description": { "en": "Mark In", "zh": "标记入点" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "O",
+    "description": { "en": "Mark Out", "zh": "标记出点" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "X",
+    "description": { "en": "Mark Clip", "zh": "标记素材" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "Ctrl + K",
+    "description": { "en": "Add Edit", "zh": "添加编辑点 (切断)" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "\\",
+    "description": { "en": "Zoom to Sequence", "zh": "缩放至序列" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "=",
+    "description": { "en": "Zoom In", "zh": "放大时间轴" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "-",
+    "description": { "en": "Zoom Out", "zh": "缩小时间轴" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  }
+]

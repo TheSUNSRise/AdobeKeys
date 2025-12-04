@@ -1,0 +1,162 @@
+[
+  {
+    "key": "Ctrl + S",
+    "description": { "en": "Save", "zh": "保存" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Shift + S",
+    "description": { "en": "Save As", "zh": "另存为" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + N",
+    "description": { "en": "New Document", "zh": "新建文档" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + O",
+    "description": { "en": "Open File", "zh": "打开文件" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + I",
+    "description": { "en": "Image Size", "zh": "图像大小" },
+    "category": { "en": "Image", "zh": "图像" }
+  },
+  {
+    "key": "Ctrl + Alt + C",
+    "description": { "en": "Canvas Size", "zh": "画布大小" },
+    "category": { "en": "Image", "zh": "图像" }
+  },
+  {
+    "key": "Ctrl + Z",
+    "description": { "en": "Undo", "zh": "撤销" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + Z",
+    "description": { "en": "Redo", "zh": "重做" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + T",
+    "description": { "en": "Free Transform", "zh": "自由变换" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + J",
+    "description": { "en": "Layer via Copy", "zh": "通过拷贝的图层" },
+    "category": { "en": "Layers", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Shift + N",
+    "description": { "en": "New Layer", "zh": "新建图层" },
+    "category": { "en": "Layers", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + G",
+    "description": { "en": "Group Layers", "zh": "图层编组" },
+    "category": { "en": "Layers", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + E",
+    "description": { "en": "Merge Layers", "zh": "合并图层" },
+    "category": { "en": "Layers", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Shift + E",
+    "description": { "en": "Merge Visible", "zh": "合并可见图层" },
+    "category": { "en": "Layers", "zh": "图层" }
+  },
+  {
+    "key": "V",
+    "description": { "en": "Move Tool", "zh": "移动工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "M",
+    "description": { "en": "Marquee Tool", "zh": "选框工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "L",
+    "description": { "en": "Lasso Tool", "zh": "套索工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "W",
+    "description": { "en": "Magic Wand Tool", "zh": "魔棒工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "C",
+    "description": { "en": "Crop Tool", "zh": "裁剪工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "B",
+    "description": { "en": "Brush Tool", "zh": "画笔工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "S",
+    "description": { "en": "Clone Stamp Tool", "zh": "仿制图章工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "E",
+    "description": { "en": "Eraser Tool", "zh": "橡皮擦工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "T",
+    "description": { "en": "Type Tool", "zh": "文字工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Ctrl + D",
+    "description": { "en": "Deselect", "zh": "取消选择" },
+    "category": { "en": "Selection", "zh": "选择" }
+  },
+  {
+    "key": "Ctrl + Shift + I",
+    "description": { "en": "Inverse Selection", "zh": "反选" },
+    "category": { "en": "Selection", "zh": "选择" }
+  },
+  {
+    "key": "Ctrl + A",
+    "description": { "en": "Select All", "zh": "全选" },
+    "category": { "en": "Selection", "zh": "选择" }
+  },
+  {
+    "key": "Ctrl + =",
+    "description": { "en": "Zoom In", "zh": "放大" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + -",
+    "description": { "en": "Zoom Out", "zh": "缩小" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + 0",
+    "description": { "en": "Fit on Screen", "zh": "按屏幕大小缩放" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Space",
+    "description": { "en": "Hand Tool (Hold)", "zh": "抓手工具 (按住)" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "X",
+    "description": { "en": "Switch Colors", "zh": "切换前景色/背景色" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "D",
+    "description": { "en": "Default Colors", "zh": "默认前景色/背景色" },
+    "category": { "en": "Tools", "zh": "工具" }
+  }
+]
