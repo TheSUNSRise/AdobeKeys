@@ -165,12 +165,12 @@
     "category": { "en": "Timeline", "zh": "时间轴" }
   },
   {
-    "key": "\\",
+    "key": "\",
     "description": { "en": "Zoom to Sequence", "zh": "缩放至序列" },
     "category": { "en": "Timeline", "zh": "时间轴" }
   },
   {
-    "key": "=",
+    "key": "{{PLUS}}",
     "description": { "en": "Zoom In", "zh": "放大时间轴" },
     "category": { "en": "Timeline", "zh": "时间轴" }
   },

@@ -85,7 +85,7 @@
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
-    "key": "Shift + ~",
+    "key": "Shift + {{TILDE}}",
     "description": { "en": "Curvature Tool", "zh": "曲率工具" },
     "category": { "en": "Tools", "zh": "工具" }
   },
