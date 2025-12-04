@@ -45,6 +45,11 @@
     "category": { "en": "Edit", "zh": "编辑" }
   },
   {
+    "key": "Shift + F5",
+    "description": { "en": "Content-Aware Fill", "zh": "内容识别填充" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
     "key": "Ctrl + J",
     "description": { "en": "Layer via Copy", "zh": "通过拷贝的图层" },
     "category": { "en": "Layers", "zh": "图层" }
@@ -67,6 +72,26 @@
   {
     "key": "Ctrl + Shift + E",
     "description": { "en": "Merge Visible", "zh": "合并可见图层" },
+    "category": { "en": "Layers", "zh": "图层" }
+  },
+  {
+    "key": "Alt + Backspace",
+    "description": { "en": "Fill Foreground Color", "zh": "填充前景色" },
+    "category": { "en": "Layers", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Backspace",
+    "description": { "en": "Fill Background Color", "zh": "填充背景色" },
+    "category": { "en": "Layers", "zh": "图层" }
+  },
+  {
+    "key": "Shift + +",
+    "description": { "en": "Next Blend Mode", "zh": "下一个混合模式" },
+    "category": { "en": "Layers", "zh": "图层" }
+  },
+  {
+    "key": "Shift + -",
+    "description": { "en": "Previous Blend Mode", "zh": "上一个混合模式" },
     "category": { "en": "Layers", "zh": "图层" }
   },
   {
@@ -100,6 +125,16 @@
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
+    "key": "[",
+    "description": { "en": "Decrease Brush Size", "zh": "缩小画笔" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "]",
+    "description": { "en": "Increase Brush Size", "zh": "放大画笔" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
     "key": "S",
     "description": { "en": "Clone Stamp Tool", "zh": "仿制图章工具" },
     "category": { "en": "Tools", "zh": "工具" }
@@ -112,6 +147,16 @@
   {
     "key": "T",
     "description": { "en": "Type Tool", "zh": "文字工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "X",
+    "description": { "en": "Switch Colors", "zh": "切换前景色/背景色" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "D",
+    "description": { "en": "Default Colors", "zh": "默认前景色/背景色" },
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
@@ -150,13 +195,13 @@
     "category": { "en": "View", "zh": "视图" }
   },
   {
-    "key": "X",
-    "description": { "en": "Switch Colors", "zh": "切换前景色/背景色" },
-    "category": { "en": "Tools", "zh": "工具" }
+    "key": "Tab",
+    "description": { "en": "Show/Hide Panels", "zh": "显示/隐藏面板" },
+    "category": { "en": "View", "zh": "视图" }
   },
   {
-    "key": "D",
-    "description": { "en": "Default Colors", "zh": "默认前景色/背景色" },
-    "category": { "en": "Tools", "zh": "工具" }
+    "key": "F",
+    "description": { "en": "Cycle Screen Modes", "zh": "切换屏幕模式" },
+    "category": { "en": "View", "zh": "视图" }
   }
 ]

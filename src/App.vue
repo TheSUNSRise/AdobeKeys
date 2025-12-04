@@ -2,6 +2,7 @@
 import { ref, watch } from 'vue'
 import { RouterView } from 'vue-router'
 import { useLocale } from './composables/useLocale'
+import { Github, Sun, Moon } from 'lucide-vue-next'
 
 // specific logic to determine initial theme state
 const getInitialTheme = () => {
@@ -39,14 +40,17 @@ watch(isDark, (val) => {
         </router-link>
         
         <div class="flex items-center gap-4">
-          <a href="https://github.com" target="_blank" class="text-sm font-medium text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 transition-colors">
-            GitHub
+          <!-- GitHub Icon Link -->
+          <a href="https://github.com/TheSUNSRise/AdobeKeys" target="_blank" 
+             class="p-2 rounded text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 transition-colors focus:outline-none"
+             aria-label="GitHub Repository">
+            <Github class="h-5 w-5" />
           </a>
 
           <!-- Language Toggle -->
           <button 
             @click="toggleLocale" 
-            class="p-2 rounded text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 transition-colors focus:outline-none"
+            class="p-2 rounded text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 transition-colors focus:outline-none w-10 flex items-center justify-center"
             aria-label="Toggle Language"
           >
             <span class="text-sm font-bold">{{ locale === 'zh' ? 'EN' : '中' }}</span>
@@ -58,14 +62,8 @@ watch(isDark, (val) => {
             class="p-2 rounded text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 transition-colors focus:outline-none"
             aria-label="Toggle Dark Mode"
           >
-            <!-- Sun Icon -->
-            <svg v-if="!isDark" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-            </svg>
-            <!-- Moon Icon -->
-            <svg v-else xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-            </svg>
+            <Sun v-if="!isDark" class="h-5 w-5" />
+            <Moon v-else class="h-5 w-5" />
           </button>
         </div>
       </div>
