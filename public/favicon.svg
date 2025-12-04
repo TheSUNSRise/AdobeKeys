@@ -1,0 +1,6 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Indigo -->
+  <rect width="32" height="32" rx="8" fill="#4F46E5"/>
+  <!-- Letter K: Thick, White, Centered -->
+  <path d="M9 8V24H13V18L18 24H23L16.5 16.5L22.5 8H17.5L13 14.5V8H9Z" fill="white"/>
+</svg>
