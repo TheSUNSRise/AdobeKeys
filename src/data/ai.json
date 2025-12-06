@@ -1,5 +1,30 @@
 [
   {
+    "key": "Ctrl + N",
+    "description": { "en": "New Document", "zh": "新建文档" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + N",
+    "description": { "en": "New from Template", "zh": "从模板新建" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + O",
+    "description": { "en": "Open File", "zh": "打开文件" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + O",
+    "description": { "en": "Browse in Bridge", "zh": "在 Bridge 中浏览" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + W",
+    "description": { "en": "Close", "zh": "关闭" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
     "key": "Ctrl + S",
     "description": { "en": "Save", "zh": "保存" },
     "category": { "en": "File", "zh": "文件" }
@@ -10,13 +35,18 @@
     "category": { "en": "File", "zh": "文件" }
   },
   {
-    "key": "Ctrl + N",
-    "description": { "en": "New Document", "zh": "新建文档" },
+    "key": "Ctrl + Alt + S",
+    "description": { "en": "Save a Copy", "zh": "存储副本" },
     "category": { "en": "File", "zh": "文件" }
   },
   {
-    "key": "Ctrl + O",
-    "description": { "en": "Open File", "zh": "打开文件" },
+    "key": "Ctrl + Alt + Shift + S",
+    "description": { "en": "Save for Web (Legacy)", "zh": "存储为 Web 所用格式" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + E",
+    "description": { "en": "Export for Screens", "zh": "导出为屏幕所用格式" },
     "category": { "en": "File", "zh": "文件" }
   },
   {
@@ -25,8 +55,28 @@
     "category": { "en": "File", "zh": "文件" }
   },
   {
-    "key": "Ctrl + Shift + Alt + S",
-    "description": { "en": "Save for Web", "zh": "存储为 Web 所用格式" },
+    "key": "Ctrl + Alt + Shift + P",
+    "description": { "en": "Package", "zh": "打包" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + I",
+    "description": { "en": "File Info", "zh": "文件简介" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + P",
+    "description": { "en": "Print", "zh": "打印" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Q",
+    "description": { "en": "Exit / Quit", "zh": "退出" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + K",
+    "description": { "en": "Preferences", "zh": "首选项" },
     "category": { "en": "File", "zh": "文件" }
   },
   {
@@ -37,6 +87,11 @@
   {
     "key": "Ctrl + Shift + Z",
     "description": { "en": "Redo", "zh": "重做" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + X",
+    "description": { "en": "Cut", "zh": "剪切" },
     "category": { "en": "Edit", "zh": "编辑" }
   },
   {
@@ -60,9 +115,44 @@
     "category": { "en": "Edit", "zh": "编辑" }
   },
   {
-    "key": "Ctrl + D",
-    "description": { "en": "Transform Again", "zh": "再次变换" },
-    "category": { "en": "Object", "zh": "对象" }
+    "key": "Ctrl + Shift + V",
+    "description": { "en": "Paste in Place", "zh": "原位粘贴" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + V",
+    "description": { "en": "Paste on All Artboards", "zh": "粘贴到所有画板" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + A",
+    "description": { "en": "Select All", "zh": "全选" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + A",
+    "description": { "en": "Deselect All", "zh": "取消选择" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Alt + A",
+    "description": { "en": "Select All on Active Artboard", "zh": "选择当前画板全部" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + 6",
+    "description": { "en": "Reselect", "zh": "重新选择" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Alt + ]",
+    "description": { "en": "Select Next Object Above", "zh": "选择上方对象" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Alt + [",
+    "description": { "en": "Select Next Object Below", "zh": "选择下方对象" },
+    "category": { "en": "Edit", "zh": "编辑" }
   },
   {
     "key": "V",
@@ -72,6 +162,11 @@
   {
     "key": "A",
     "description": { "en": "Direct Selection Tool", "zh": "直接选择工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Y",
+    "description": { "en": "Magic Wand Tool", "zh": "魔棒工具" },
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
@@ -85,6 +180,21 @@
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
+    "key": "{{PLUS}}",
+    "description": { "en": "Add Anchor Point Tool", "zh": "添加锚点工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "{{MINUS}}",
+    "description": { "en": "Delete Anchor Point Tool", "zh": "删除锚点工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + C",
+    "description": { "en": "Anchor Point Tool", "zh": "锚点工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
     "key": "Shift + {{TILDE}}",
     "description": { "en": "Curvature Tool", "zh": "曲率工具" },
     "category": { "en": "Tools", "zh": "工具" }
@@ -92,6 +202,11 @@
   {
     "key": "T",
     "description": { "en": "Type Tool", "zh": "文字工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + T",
+    "description": { "en": "Touch Type Tool", "zh": "文字修饰工具" },
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
@@ -110,13 +225,63 @@
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
+    "key": "B",
+    "description": { "en": "Paintbrush Tool", "zh": "画笔工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + B",
+    "description": { "en": "Blob Brush Tool", "zh": "斑点画笔工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "N",
+    "description": { "en": "Pencil Tool", "zh": "铅笔工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + N",
+    "description": { "en": "Shaper Tool", "zh": "整形工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + E",
+    "description": { "en": "Eraser Tool", "zh": "橡皮擦工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "C",
+    "description": { "en": "Scissors Tool", "zh": "剪刀工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
     "key": "R",
     "description": { "en": "Rotate Tool", "zh": "旋转工具" },
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
+    "key": "O",
+    "description": { "en": "Reflect Tool", "zh": "镜像工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
     "key": "S",
-    "description": { "en": "Scale Tool", "zh": "比例缩放工具" },
+    "description": { "en": "Scale Tool", "zh": "缩放工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + R",
+    "description": { "en": "Warp Tool", "zh": "变形工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + W",
+    "description": { "en": "Width Tool", "zh": "宽度工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "E",
+    "description": { "en": "Free Transform Tool", "zh": "自由变换工具" },
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
@@ -125,8 +290,18 @@
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
-    "key": "Shift + O",
-    "description": { "en": "Artboard Tool", "zh": "画板工具" },
+    "key": "Shift + P",
+    "description": { "en": "Perspective Grid Tool", "zh": "透视网格工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + V",
+    "description": { "en": "Perspective Selection Tool", "zh": "透视选区工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "U",
+    "description": { "en": "Mesh Tool", "zh": "网格工具" },
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
@@ -140,13 +315,103 @@
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
-    "key": "Shift + X",
-    "description": { "en": "Swap Fill/Stroke", "zh": "互换填色/描边" },
+    "key": "W",
+    "description": { "en": "Blend Tool", "zh": "混合工具" },
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
-    "key": "Shift + Ctrl + O",
-    "description": { "en": "Create Outlines", "zh": "创建轮廓" },
+    "key": "K",
+    "description": { "en": "Live Paint Bucket", "zh": "实时上色油漆桶" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + L",
+    "description": { "en": "Live Paint Selection Tool", "zh": "实时上色选择工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + O",
+    "description": { "en": "Artboard Tool", "zh": "画板工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + K",
+    "description": { "en": "Slice Tool", "zh": "切片工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "H",
+    "description": { "en": "Hand Tool", "zh": "抓手工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Z",
+    "description": { "en": "Zoom Tool", "zh": "缩放工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "J",
+    "description": { "en": "Column Graph Tool", "zh": "柱形图工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + S",
+    "description": { "en": "Symbol Sprayer Tool", "zh": "符号喷枪工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "X",
+    "description": { "en": "Toggle Fill/Stroke", "zh": "切换填色/描边" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + X",
+    "description": { "en": "Swap Fill and Stroke", "zh": "互换填色和描边" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "D",
+    "description": { "en": "Default Fill/Stroke", "zh": "默认填色和描边" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "/",
+    "description": { "en": "No Fill/Stroke (Toggle)", "zh": "切换无填色/无描边" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "<",
+    "description": { "en": "Gradient Fill", "zh": "渐变填色" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": ">",
+    "description": { "en": "Solid Color Fill", "zh": "纯色填色" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "[",
+    "description": { "en": "Decrease Brush Size", "zh": "缩小画笔" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "]",
+    "description": { "en": "Increase Brush Size", "zh": "放大画笔" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Ctrl + T",
+    "description": { "en": "Transform Each", "zh": "分别变换" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + D",
+    "description": { "en": "Transform Again", "zh": "再次变换" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Shift + M",
+    "description": { "en": "Move", "zh": "移动" },
     "category": { "en": "Object", "zh": "对象" }
   },
   {
@@ -160,6 +425,26 @@
     "category": { "en": "Object", "zh": "对象" }
   },
   {
+    "key": "Ctrl + 2",
+    "description": { "en": "Lock Selection", "zh": "锁定所选对象" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + 2",
+    "description": { "en": "Unlock All", "zh": "全部解锁" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + 3",
+    "description": { "en": "Hide Selection", "zh": "隐藏所选对象" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + 3",
+    "description": { "en": "Show All", "zh": "显示全部" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
     "key": "Ctrl + 7",
     "description": { "en": "Make Clipping Mask", "zh": "建立剪切蒙版" },
     "category": { "en": "Object", "zh": "对象" }
@@ -170,13 +455,68 @@
     "category": { "en": "Object", "zh": "对象" }
   },
   {
-    "key": "Ctrl + 2",
-    "description": { "en": "Lock Selection", "zh": "锁定所选对象" },
+    "key": "Ctrl + 8",
+    "description": { "en": "Make Compound Path", "zh": "建立复合路径" },
     "category": { "en": "Object", "zh": "对象" }
   },
   {
-    "key": "Ctrl + Alt + 2",
-    "description": { "en": "Unlock All", "zh": "全部解锁" },
+    "key": "Ctrl + Alt + 8",
+    "description": { "en": "Release Compound Path", "zh": "释放复合路径" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Shift + O",
+    "description": { "en": "Create Outlines", "zh": "创建轮廓" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + B",
+    "description": { "en": "Make Blend", "zh": "建立混合" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + B",
+    "description": { "en": "Release Blend", "zh": "释放混合" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + W",
+    "description": { "en": "Make Envelope with Warp", "zh": "使用变形建立封套" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + C",
+    "description": { "en": "Make Envelope with Top Object", "zh": "用顶层对象建立" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + X",
+    "description": { "en": "Make Envelope with Mesh", "zh": "用网格建立" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + W",
+    "description": { "en": "Release Envelope", "zh": "释放封套" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + M",
+    "description": { "en": "Make Opacity Mask", "zh": "建立不透明蒙版" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + J",
+    "description": { "en": "Join", "zh": "连接" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + J",
+    "description": { "en": "Average", "zh": "平均" },
+    "category": { "en": "Object", "zh": "对象" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + J",
+    "description": { "en": "Join and Average", "zh": "连接并平均" },
     "category": { "en": "Object", "zh": "对象" }
   },
   {
@@ -200,8 +540,203 @@
     "category": { "en": "Arrange", "zh": "排列" }
   },
   {
+    "key": "Ctrl + Shift + L",
+    "description": { "en": "Align Left", "zh": "左对齐" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Shift + C",
+    "description": { "en": "Align Center", "zh": "居中对齐" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Shift + R",
+    "description": { "en": "Align Right", "zh": "右对齐" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Shift + J",
+    "description": { "en": "Justify with Last Line Left", "zh": "两端对齐 (末行左齐)" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Shift + F",
+    "description": { "en": "Justify All Lines", "zh": "两端对齐 (全部)" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Shift + >",
+    "description": { "en": "Increase Font Size", "zh": "增大字号" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Shift + <",
+    "description": { "en": "Decrease Font Size", "zh": "减小字号" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + >",
+    "description": { "en": "Increase Font Size (Large)", "zh": "增大字号 (大步长)" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + <",
+    "description": { "en": "Decrease Font Size (Large)", "zh": "减小字号 (大步长)" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Alt + Up Arrow",
+    "description": { "en": "Decrease Leading", "zh": "减小行距" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Alt + Down Arrow",
+    "description": { "en": "Increase Leading", "zh": "增大行距" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Alt + Left Arrow",
+    "description": { "en": "Decrease Kerning/Tracking", "zh": "减小字距" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Alt + Right Arrow",
+    "description": { "en": "Increase Kerning/Tracking", "zh": "增大字距" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Alt + K",
+    "description": { "en": "Reset Kerning/Tracking", "zh": "重置字距" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Alt + Q",
+    "description": { "en": "Reset Horizontal Scale", "zh": "重置水平缩放" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Shift + X",
+    "description": { "en": "Reset Vertical Scale", "zh": "重置垂直缩放" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Alt + Shift + Up Arrow",
+    "description": { "en": "Increase Baseline Shift", "zh": "增大基线偏移" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Alt + Shift + Down Arrow",
+    "description": { "en": "Decrease Baseline Shift", "zh": "减小基线偏移" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Shift + K",
+    "description": { "en": "Toggle Small Caps", "zh": "切换小型大写" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + Shift + H",
+    "description": { "en": "Toggle Auto Hyphenate", "zh": "切换自动断字" },
+    "category": { "en": "Type", "zh": "文字" }
+  },
+  {
+    "key": "Ctrl + {{PLUS}}",
+    "description": { "en": "Zoom In", "zh": "放大" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + {{MINUS}}",
+    "description": { "en": "Zoom Out", "zh": "缩小" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + 0",
+    "description": { "en": "Fit Artboard in Window", "zh": "画板适合窗口" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + 1",
+    "description": { "en": "Actual Size (100%)", "zh": "实际大小 (100%)" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + 0",
+    "description": { "en": "Fit All in Window", "zh": "适合窗口大小" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Space",
+    "description": { "en": "Hand Tool (Hold)", "zh": "抓手工具 (按住)" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Space",
+    "description": { "en": "Zoom In (Hold)", "zh": "放大 (按住)" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + Space",
+    "description": { "en": "Zoom Out (Hold)", "zh": "缩小 (按住)" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Y",
+    "description": { "en": "Toggle Outline/Preview", "zh": "切换轮廓/预览" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + Y",
+    "description": { "en": "Toggle Pixel Preview", "zh": "切换像素预览" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Shift + W",
+    "description": { "en": "Toggle Overprint Preview", "zh": "切换叠印预览" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + E",
+    "description": { "en": "GPU Preview", "zh": "GPU 预览" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Shift + B",
+    "description": { "en": "Toggle Bounding Box", "zh": "显示/隐藏定界框" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Shift + D",
+    "description": { "en": "Toggle Transparency Grid", "zh": "显示/隐藏透明度网格" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + H",
+    "description": { "en": "Show/Hide Artboards", "zh": "显示/隐藏画板" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + H",
+    "description": { "en": "Hide Selection Edges", "zh": "隐藏选区边缘" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
     "key": "Ctrl + ;",
     "description": { "en": "Show/Hide Guides", "zh": "显示/隐藏参考线" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + ;",
+    "description": { "en": "Lock Guides", "zh": "锁定参考线" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + 5",
+    "description": { "en": "Make Guides", "zh": "建立参考线" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + 5",
+    "description": { "en": "Release Guides", "zh": "释放参考线" },
     "category": { "en": "View", "zh": "视图" }
   },
   {
@@ -210,13 +745,118 @@
     "category": { "en": "View", "zh": "视图" }
   },
   {
-    "key": "Ctrl + Y",
-    "description": { "en": "Outline View", "zh": "轮廓视图" },
+    "key": "Ctrl + Shift + \"",
+    "description": { "en": "Snap to Grid", "zh": "对齐网格" },
     "category": { "en": "View", "zh": "视图" }
   },
   {
-    "key": "Ctrl + 0",
-    "description": { "en": "Fit Artboard", "zh": "画板适合窗口" },
+    "key": "Ctrl + Alt + \"",
+    "description": { "en": "Snap to Point", "zh": "对齐点" },
     "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + U",
+    "description": { "en": "Smart Guides", "zh": "智能参考线" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + R",
+    "description": { "en": "Show/Hide Rulers", "zh": "显示/隐藏标尺" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + R",
+    "description": { "en": "Change Ruler Units", "zh": "更改标尺单位" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "F",
+    "description": { "en": "Cycle Screen Modes", "zh": "切换屏幕模式" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Tab",
+    "description": { "en": "Show/Hide All Panels", "zh": "显示/隐藏所有面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Shift + Tab",
+    "description": { "en": "Show/Hide Panels (Keep Tools)", "zh": "显示/隐藏面板 (保留工具)" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "F5",
+    "description": { "en": "Brushes Panel", "zh": "画笔面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "F6",
+    "description": { "en": "Color Panel", "zh": "颜色面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "F7",
+    "description": { "en": "Layers Panel", "zh": "图层面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Shift + F5",
+    "description": { "en": "Graphic Styles Panel", "zh": "图形样式面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Shift + F6",
+    "description": { "en": "Appearance Panel", "zh": "外观面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Shift + F7",
+    "description": { "en": "Align Panel", "zh": "对齐面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Shift + F8",
+    "description": { "en": "Transform Panel", "zh": "变换面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + Shift + F9",
+    "description": { "en": "Pathfinder Panel", "zh": "路径查找器面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + F9",
+    "description": { "en": "Gradient Panel", "zh": "渐变面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + F10",
+    "description": { "en": "Stroke Panel", "zh": "描边面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + F11",
+    "description": { "en": "Attributes Panel", "zh": "属性面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + Shift + F10",
+    "description": { "en": "Transparency Panel", "zh": "透明度面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + Shift + F11",
+    "description": { "en": "Symbols Panel", "zh": "符号面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + K",
+    "description": { "en": "Keyboard Shortcuts", "zh": "键盘快捷键" },
+    "category": { "en": "Help", "zh": "帮助" }
+  },
+  {
+    "key": "F1",
+    "description": { "en": "Help", "zh": "帮助" },
+    "category": { "en": "Help", "zh": "帮助" }
   }
 ]

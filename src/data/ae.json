@@ -1,0 +1,847 @@
+[
+  {
+    "key": "Ctrl + N",
+    "description": { "en": "New Composition", "zh": "新建合成" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + N",
+    "description": { "en": "New Project", "zh": "新建项目" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + O",
+    "description": { "en": "Open Project", "zh": "打开项目" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + O",
+    "description": { "en": "Browse in Bridge", "zh": "在 Bridge 中浏览" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + O",
+    "description": { "en": "Open Recent Project", "zh": "打开最近项目" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + W",
+    "description": { "en": "Close Project", "zh": "关闭项目" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + S",
+    "description": { "en": "Save", "zh": "保存" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Shift + S",
+    "description": { "en": "Save As", "zh": "另存为" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + S",
+    "description": { "en": "Increment and Save", "zh": "增量保存" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + I",
+    "description": { "en": "Import File", "zh": "导入文件" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + I",
+    "description": { "en": "Import Multiple Files", "zh": "导入多个文件" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + M",
+    "description": { "en": "Add to Render Queue", "zh": "添加到渲染队列" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + M",
+    "description": { "en": "Add to Adobe Media Encoder Queue", "zh": "添加到 AME 队列" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Q",
+    "description": { "en": "Exit / Quit", "zh": "退出" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Z",
+    "description": { "en": "Undo", "zh": "撤销" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + Z",
+    "description": { "en": "Redo", "zh": "重做" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + X",
+    "description": { "en": "Cut", "zh": "剪切" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + C",
+    "description": { "en": "Copy", "zh": "复制" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + V",
+    "description": { "en": "Paste", "zh": "粘贴" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Alt + V",
+    "description": { "en": "Paste with Layers", "zh": "粘贴并保留图层" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + D",
+    "description": { "en": "Duplicate", "zh": "复制" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + D",
+    "description": { "en": "Split Layer", "zh": "拆分图层" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + A",
+    "description": { "en": "Select All", "zh": "全选" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + A",
+    "description": { "en": "Deselect All", "zh": "取消全选" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "F2",
+    "description": { "en": "Deselect All", "zh": "取消全选" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + F",
+    "description": { "en": "Find", "zh": "查找" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Alt + E",
+    "description": { "en": "Edit Original", "zh": "编辑原稿" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Enter",
+    "description": { "en": "Rename Selected Item", "zh": "重命名选中项" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + K",
+    "description": { "en": "Composition Settings", "zh": "合成设置" },
+    "category": { "en": "Composition", "zh": "合成" }
+  },
+  {
+    "key": "Ctrl + Shift + C",
+    "description": { "en": "Precompose", "zh": "预合成" },
+    "category": { "en": "Composition", "zh": "合成" }
+  },
+  {
+    "key": "Ctrl + Shift + X",
+    "description": { "en": "Crop Comp to Region of Interest", "zh": "将合成裁剪为目标区域" },
+    "category": { "en": "Composition", "zh": "合成" }
+  },
+  {
+    "key": "B",
+    "description": { "en": "Set Work Area Beginning", "zh": "设置工作区起点" },
+    "category": { "en": "Composition", "zh": "合成" }
+  },
+  {
+    "key": "N",
+    "description": { "en": "Set Work Area End", "zh": "设置工作区终点" },
+    "category": { "en": "Composition", "zh": "合成" }
+  },
+  {
+    "key": "Ctrl + Shift + B",
+    "description": { "en": "Set Background Color", "zh": "设置背景颜色" },
+    "category": { "en": "Composition", "zh": "合成" }
+  },
+  {
+    "key": "Ctrl + Y",
+    "description": { "en": "New Solid Layer", "zh": "新建纯色图层" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Alt + Y",
+    "description": { "en": "New Adjustment Layer", "zh": "新建调整图层" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Shift + Y",
+    "description": { "en": "Solid Settings", "zh": "纯色设置" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + Y",
+    "description": { "en": "New Null Object", "zh": "新建空对象" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + T",
+    "description": { "en": "New Text Layer", "zh": "新建文本图层" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + C",
+    "description": { "en": "New Camera", "zh": "新建摄像机" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + L",
+    "description": { "en": "New Light", "zh": "新建灯光" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "[",
+    "description": { "en": "Set In Point to Playhead", "zh": "设置入点到播放头" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "]",
+    "description": { "en": "Set Out Point to Playhead", "zh": "设置出点到播放头" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Alt + [",
+    "description": { "en": "Trim In Point to Playhead", "zh": "修剪入点到播放头" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Alt + ]",
+    "description": { "en": "Trim Out Point to Playhead", "zh": "修剪出点到播放头" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + [",
+    "description": { "en": "Send Layer Backward", "zh": "图层后移一层" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + ]",
+    "description": { "en": "Bring Layer Forward", "zh": "图层前移一层" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Shift + [",
+    "description": { "en": "Send Layer to Back", "zh": "图层置于底层" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Shift + ]",
+    "description": { "en": "Bring Layer to Front", "zh": "图层置于顶层" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + L",
+    "description": { "en": "Lock Layer", "zh": "锁定图层" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Shift + L",
+    "description": { "en": "Unlock All Layers", "zh": "解锁所有图层" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + V",
+    "description": { "en": "Enable Video", "zh": "启用视频" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Shift + T",
+    "description": { "en": "Enable Time Remapping", "zh": "启用时间重映射" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Shift + H",
+    "description": { "en": "Hide Other Video", "zh": "隐藏其他视频" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + G",
+    "description": { "en": "Group Shapes", "zh": "编组形状" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "Ctrl + Shift + G",
+    "description": { "en": "Ungroup Shapes", "zh": "取消编组形状" },
+    "category": { "en": "Layer", "zh": "图层" }
+  },
+  {
+    "key": "A",
+    "description": { "en": "Show Anchor Point", "zh": "显示锚点" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "P",
+    "description": { "en": "Show Position", "zh": "显示位置" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "S",
+    "description": { "en": "Show Scale", "zh": "显示缩放" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "R",
+    "description": { "en": "Show Rotation", "zh": "显示旋转" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "T",
+    "description": { "en": "Show Opacity", "zh": "显示不透明度" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "L",
+    "description": { "en": "Show Audio Levels", "zh": "显示音频电平" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "LL",
+    "description": { "en": "Show Audio Waveform", "zh": "显示音频波形" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "F",
+    "description": { "en": "Show Mask Feather", "zh": "显示蒙版羽化" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "M",
+    "description": { "en": "Show Mask Path", "zh": "显示蒙版路径" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "MM",
+    "description": { "en": "Show All Mask Properties", "zh": "显示所有蒙版属性" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "E",
+    "description": { "en": "Show Effects", "zh": "显示效果" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "EE",
+    "description": { "en": "Show Expressions", "zh": "显示表达式" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "U",
+    "description": { "en": "Show Modified Properties", "zh": "显示修改过的属性" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "UU",
+    "description": { "en": "Show All Keyframes", "zh": "显示所有关键帧" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "SS",
+    "description": { "en": "Show Selected Properties", "zh": "显示选中的属性" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "Alt + Shift + A",
+    "description": { "en": "Add Anchor Point Property", "zh": "添加锚点属性" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "Alt + Shift + P",
+    "description": { "en": "Add Position Property", "zh": "添加位置属性" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "Alt + Shift + S",
+    "description": { "en": "Add Scale Property", "zh": "添加缩放属性" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "Alt + Shift + R",
+    "description": { "en": "Add Rotation Property", "zh": "添加旋转属性" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "Alt + Shift + T",
+    "description": { "en": "Add Opacity Property", "zh": "添加不透明度属性" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "Alt + Shift + M",
+    "description": { "en": "Add Mask Property", "zh": "添加蒙版属性" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "Alt + Shift + E",
+    "description": { "en": "Add Effect Property", "zh": "添加效果属性" },
+    "category": { "en": "Properties", "zh": "属性" }
+  },
+  {
+    "key": "Ctrl + Alt + A",
+    "description": { "en": "Select All Visible Keyframes", "zh": "选择所有可见关键帧" },
+    "category": { "en": "Keyframes", "zh": "关键帧" }
+  },
+  {
+    "key": "Alt + Shift + K",
+    "description": { "en": "Set Keyframe", "zh": "设置关键帧" },
+    "category": { "en": "Keyframes", "zh": "关键帧" }
+  },
+  {
+    "key": "J",
+    "description": { "en": "Go to Previous Keyframe", "zh": "转到上一关键帧" },
+    "category": { "en": "Keyframes", "zh": "关键帧" }
+  },
+  {
+    "key": "K",
+    "description": { "en": "Go to Next Keyframe", "zh": "转到下一关键帧" },
+    "category": { "en": "Keyframes", "zh": "关键帧" }
+  },
+  {
+    "key": "F9",
+    "description": { "en": "Easy Ease", "zh": "缓动" },
+    "category": { "en": "Keyframes", "zh": "关键帧" }
+  },
+  {
+    "key": "Shift + F9",
+    "description": { "en": "Easy Ease In", "zh": "缓入" },
+    "category": { "en": "Keyframes", "zh": "关键帧" }
+  },
+  {
+    "key": "Ctrl + Shift + F9",
+    "description": { "en": "Easy Ease Out", "zh": "缓出" },
+    "category": { "en": "Keyframes", "zh": "关键帧" }
+  },
+  {
+    "key": "Ctrl + Alt + K",
+    "description": { "en": "Toggle Hold Keyframe", "zh": "切换定格关键帧" },
+    "category": { "en": "Keyframes", "zh": "关键帧" }
+  },
+  {
+    "key": "Ctrl + Shift + K",
+    "description": { "en": "Keyframe Interpolation", "zh": "关键帧插值" },
+    "category": { "en": "Keyframes", "zh": "关键帧" }
+  },
+  {
+    "key": "Ctrl + Alt + H",
+    "description": { "en": "Reveal Keyframe in Graph Editor", "zh": "在图表编辑器中显示关键帧" },
+    "category": { "en": "Keyframes", "zh": "关键帧" }
+  },
+  {
+    "key": "Alt + {{EQUAL}}",
+    "description": { "en": "Add Expression", "zh": "添加表达式" },
+    "category": { "en": "Keyframes", "zh": "关键帧" }
+  },
+  {
+    "key": "Ctrl + Shift + M",
+    "description": { "en": "New Mask", "zh": "新建蒙版" },
+    "category": { "en": "Mask", "zh": "蒙版" }
+  },
+  {
+    "key": "Ctrl + Shift + I",
+    "description": { "en": "Invert Mask", "zh": "反转蒙版" },
+    "category": { "en": "Mask", "zh": "蒙版" }
+  },
+  {
+    "key": "Ctrl + Shift + F",
+    "description": { "en": "Mask Feather", "zh": "蒙版羽化" },
+    "category": { "en": "Mask", "zh": "蒙版" }
+  },
+  {
+    "key": "Shift + Ctrl + M",
+    "description": { "en": "Mask Shape", "zh": "蒙版形状" },
+    "category": { "en": "Mask", "zh": "蒙版" }
+  },
+  {
+    "key": "Ctrl + Shift + E",
+    "description": { "en": "Apply Effect", "zh": "应用效果" },
+    "category": { "en": "Effects", "zh": "效果" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + E",
+    "description": { "en": "Remove All Effects", "zh": "移除所有效果" },
+    "category": { "en": "Effects", "zh": "效果" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + F",
+    "description": { "en": "Effect Controls Panel", "zh": "效果控件面板" },
+    "category": { "en": "Effects", "zh": "效果" }
+  },
+  {
+    "key": "Space",
+    "description": { "en": "Play/Pause", "zh": "播放/暂停" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": ".",
+    "description": { "en": "Preview Audio Only", "zh": "仅预览音频" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Numpad 0",
+    "description": { "en": "RAM Preview", "zh": "RAM 预览" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + Numpad 0",
+    "description": { "en": "RAM Preview (Current Settings)", "zh": "RAM 预览 (当前设置)" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Page Up",
+    "description": { "en": "Previous Frame", "zh": "上一帧" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Page Down",
+    "description": { "en": "Next Frame", "zh": "下一帧" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + Page Up",
+    "description": { "en": "Jump 10 Frames Back", "zh": "后退 10 帧" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + Page Down",
+    "description": { "en": "Jump 10 Frames Forward", "zh": "前进 10 帧" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Home",
+    "description": { "en": "Go to Beginning", "zh": "转到开头" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "End",
+    "description": { "en": "Go to End", "zh": "转到结尾" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "I",
+    "description": { "en": "Go to In Point", "zh": "转到入点" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "O",
+    "description": { "en": "Go to Out Point", "zh": "转到出点" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + Home",
+    "description": { "en": "Go to Work Area Start", "zh": "转到工作区起点" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + End",
+    "description": { "en": "Go to Work Area End", "zh": "转到工作区终点" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "V",
+    "description": { "en": "Selection Tool", "zh": "选择工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "H",
+    "description": { "en": "Hand Tool", "zh": "抓手工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Z",
+    "description": { "en": "Zoom Tool", "zh": "缩放工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "W",
+    "description": { "en": "Rotation Tool", "zh": "旋转工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "C",
+    "description": { "en": "Camera Tools (Cycle)", "zh": "摄像机工具 (循环)" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Y",
+    "description": { "en": "Anchor Point Tool", "zh": "锚点工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Q",
+    "description": { "en": "Shape Tools (Cycle)", "zh": "形状工具 (循环)" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "G",
+    "description": { "en": "Pen Tool", "zh": "钢笔工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Ctrl + T",
+    "description": { "en": "Type Tool", "zh": "文字工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Ctrl + B",
+    "description": { "en": "Brush Tool", "zh": "画笔工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Ctrl + Alt + B",
+    "description": { "en": "Clone Stamp Tool", "zh": "仿制图章工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Ctrl + P",
+    "description": { "en": "Puppet Pin Tool", "zh": "木偶位置图钉工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "{{PLUS}}",
+    "description": { "en": "Zoom In", "zh": "放大" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "{{MINUS}}",
+    "description": { "en": "Zoom Out", "zh": "缩小" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Shift + /",
+    "description": { "en": "Fit to Window", "zh": "适合窗口" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Alt + /",
+    "description": { "en": "Fit to 100%", "zh": "100% 显示" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": ",",
+    "description": { "en": "Zoom Out Timeline", "zh": "缩小时间轴" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": ";",
+    "description": { "en": "Zoom In Timeline", "zh": "放大时间轴" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Shift + ;",
+    "description": { "en": "Fit Timeline to View", "zh": "时间轴适合视图" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + '",
+    "description": { "en": "Show Grid", "zh": "显示网格" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + ;",
+    "description": { "en": "Show Guides", "zh": "显示参考线" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Shift + ;",
+    "description": { "en": "Snap to Guides", "zh": "对齐参考线" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + ;",
+    "description": { "en": "Lock Guides", "zh": "锁定参考线" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + R",
+    "description": { "en": "Show Rulers", "zh": "显示标尺" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + ;",
+    "description": { "en": "Proportional Grid", "zh": "比例网格" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "'",
+    "description": { "en": "Show Safe Zones", "zh": "显示安全区域" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Shift + '",
+    "description": { "en": "Show/Hide Layer Controls", "zh": "显示/隐藏图层控件" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + \\",
+    "description": { "en": "Resolution: Full", "zh": "分辨率: 完全" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Shift + \\",
+    "description": { "en": "Resolution: Half", "zh": "分辨率: 一半" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + \\",
+    "description": { "en": "Resolution: Quarter", "zh": "分辨率: 四分之一" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + 0",
+    "description": { "en": "Project Panel", "zh": "项目面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + 1",
+    "description": { "en": "Tools Panel", "zh": "工具面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + 2",
+    "description": { "en": "Info Panel", "zh": "信息面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + 3",
+    "description": { "en": "Preview Panel", "zh": "预览面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + 4",
+    "description": { "en": "Audio Panel", "zh": "音频面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + 5",
+    "description": { "en": "Effects & Presets Panel", "zh": "效果和预设面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + 6",
+    "description": { "en": "Character Panel", "zh": "字符面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + 7",
+    "description": { "en": "Paragraph Panel", "zh": "段落面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + 8",
+    "description": { "en": "Paint Panel", "zh": "绘图面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + 9",
+    "description": { "en": "Brushes Panel", "zh": "画笔面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "F3",
+    "description": { "en": "Effect Controls Panel", "zh": "效果控件面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "F4",
+    "description": { "en": "Toggle Columns in Timeline", "zh": "切换时间轴列" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "`",
+    "description": { "en": "Maximize Panel", "zh": "最大化面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "\\",
+    "description": { "en": "Toggle Timeline/Graph Editor", "zh": "切换时间轴/图表编辑器" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + N",
+    "description": { "en": "New Comp from Selection", "zh": "从选择新建合成" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Ctrl + Home",
+    "description": { "en": "Center Anchor Point", "zh": "居中锚点" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Ctrl + Alt + Home",
+    "description": { "en": "Center Layer in View", "zh": "图层居中显示" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Ctrl + Alt + F",
+    "description": { "en": "Fit to Comp", "zh": "适合合成" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + F",
+    "description": { "en": "Fit to Comp Width", "zh": "适合合成宽度" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + H",
+    "description": { "en": "Fit to Comp Height", "zh": "适合合成高度" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + G",
+    "description": { "en": "Grow Bounds", "zh": "增长边界" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "X",
+    "description": { "en": "Pan Behind Tool", "zh": "向后平移工具" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Ctrl + Alt + O",
+    "description": { "en": "Auto-Orient", "zh": "自动定向" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Ctrl + E",
+    "description": { "en": "Open Layer Source", "zh": "打开图层源" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Ctrl + /",
+    "description": { "en": "Add to Composition", "zh": "添加到合成" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Ctrl + Alt + /",
+    "description": { "en": "Replace Layer Source", "zh": "替换图层源" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Alt + \\",
+    "description": { "en": "Move Playhead to Layer In Point", "zh": "移动播放头到图层入点" },
+    "category": { "en": "Shortcuts", "zh": "快捷操作" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + K",
+    "description": { "en": "Keyboard Shortcuts", "zh": "键盘快捷键" },
+    "category": { "en": "Help", "zh": "帮助" }
+  },
+  {
+    "key": "F1",
+    "description": { "en": "Help", "zh": "帮助" },
+    "category": { "en": "Help", "zh": "帮助" }
+  }
+]

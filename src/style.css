@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Remove all focus/active outlines from buttons */
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus,
+button:focus-visible,
+button:focus-within,
+button:active {
+  outline: none !important;
+  outline-offset: 0 !important;
+  box-shadow: none !important;
+  --tw-ring-shadow: 0 0 #0000 !important;
+  --tw-ring-offset-shadow: 0 0 #0000 !important;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}

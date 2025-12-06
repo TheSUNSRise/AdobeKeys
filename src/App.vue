@@ -47,11 +47,11 @@ onMounted(() => {
         
         <div class="flex items-center gap-4">
           <!-- OS Toggle -->
-          <button 
-            @click="toggleOS" 
+          <button
+            @click="toggleOS"
             class="p-2 rounded text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 transition-colors focus:outline-none w-10 flex items-center justify-center"
-            aria-label="Toggle OS"
-            :title="os === 'win' ? 'Current: Windows (Click to switch to Mac)' : 'Current: Mac (Click to switch to Windows)'"
+            :aria-label="t.header.toggleOS"
+            :title="os === 'win' ? t.header.currentWindows : t.header.currentMac"
           >
             <!-- Windows Icon -->
             <svg v-if="os === 'win'" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -64,35 +64,50 @@ onMounted(() => {
           </button>
 
           <!-- Language Toggle -->
-          <button 
-            @click="toggleLocale" 
+          <button
+            @click="toggleLocale"
             class="p-2 rounded text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 transition-colors focus:outline-none w-9 flex items-center justify-center"
-            aria-label="Toggle Language"
+            :aria-label="t.header.toggleLang"
+            :title="t.header.toggleLang"
           >
             <span class="text-sm font-bold">{{ locale === 'zh' ? 'EN' : '中' }}</span>
           </button>
-          
+
           <!-- Dark Mode Toggle -->
-          <button 
-            @click="toggleDark" 
+          <button
+            @click="toggleDark"
             class="p-2 rounded text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 transition-colors focus:outline-none"
-            aria-label="Toggle Dark Mode"
+            :aria-label="t.header.toggleTheme"
+            :title="t.header.toggleTheme"
           >
             <Sun v-if="!isDark" class="h-5 w-5" />
             <Moon v-else class="h-5 w-5" />
           </button>
 
           <!-- GitHub Icon Link -->
-          <a href="https://github.com/TheSUNSRise/AdobeKeys" target="_blank" 
+          <a href="https://github.com/TheSUNSRise/AdobeKeys" target="_blank"
              class="p-2 rounded text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 transition-colors focus:outline-none"
-             aria-label="GitHub Repository">
+             :aria-label="t.header.github"
+             :title="t.header.github">
             <Github class="h-5 w-5" />
           </a>
         </div>
       </div>
     </header>
     <main class="container mx-auto px-4 py-10 max-w-5xl">
-      <RouterView />
+      <RouterView v-slot="{ Component }">
+        <transition
+          enter-active-class="transition-opacity duration-200 ease-out"
+          enter-from-class="opacity-0"
+          enter-to-class="opacity-100"
+          leave-active-class="transition-opacity duration-150 ease-in"
+          leave-from-class="opacity-100"
+          leave-to-class="opacity-0"
+          mode="out-in"
+        >
+          <component :is="Component" />
+        </transition>
+      </RouterView>
     </main>
   </div>
 </template>

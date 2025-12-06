@@ -1,7 +1,47 @@
 [
   {
+    "key": "Ctrl + N",
+    "description": { "en": "New Project", "zh": "新建项目" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + N",
+    "description": { "en": "New Sequence", "zh": "新建序列" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + O",
+    "description": { "en": "Open Project", "zh": "打开项目" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Shift + O",
+    "description": { "en": "Browse in Bridge", "zh": "在 Bridge 中浏览" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + W",
+    "description": { "en": "Close Project", "zh": "关闭项目" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Shift + W",
+    "description": { "en": "Close", "zh": "关闭" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
     "key": "Ctrl + S",
-    "description": { "en": "Save Project", "zh": "保存项目" },
+    "description": { "en": "Save", "zh": "保存" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Shift + S",
+    "description": { "en": "Save As", "zh": "另存为" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + S",
+    "description": { "en": "Save a Copy", "zh": "存储副本" },
     "category": { "en": "File", "zh": "文件" }
   },
   {
@@ -15,9 +55,29 @@
     "category": { "en": "File", "zh": "文件" }
   },
   {
-    "key": "Enter",
-    "description": { "en": "Render Effects in Work Area", "zh": "渲染工作区效果" },
-    "category": { "en": "Sequence", "zh": "序列" }
+    "key": "Ctrl + Alt + M",
+    "description": { "en": "Media Export Presets", "zh": "导出媒体预设" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Shift + H",
+    "description": { "en": "Export Frame", "zh": "导出帧" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "F5",
+    "description": { "en": "Capture", "zh": "采集" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "F6",
+    "description": { "en": "Batch Capture", "zh": "批采集" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Q",
+    "description": { "en": "Exit / Quit", "zh": "退出" },
+    "category": { "en": "File", "zh": "文件" }
   },
   {
     "key": "Ctrl + Z",
@@ -27,6 +87,11 @@
   {
     "key": "Ctrl + Shift + Z",
     "description": { "en": "Redo", "zh": "重做" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + X",
+    "description": { "en": "Cut", "zh": "剪切" },
     "category": { "en": "Edit", "zh": "编辑" }
   },
   {
@@ -40,24 +105,64 @@
     "category": { "en": "Edit", "zh": "编辑" }
   },
   {
+    "key": "Ctrl + Shift + V",
+    "description": { "en": "Paste Insert", "zh": "插入粘贴" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
     "key": "Ctrl + Alt + V",
     "description": { "en": "Paste Attributes", "zh": "粘贴属性" },
     "category": { "en": "Edit", "zh": "编辑" }
   },
   {
-    "key": "Ctrl + L",
-    "description": { "en": "Link/Unlink", "zh": "链接/取消链接" },
-    "category": { "en": "Clip", "zh": "素材" }
+    "key": "Delete",
+    "description": { "en": "Clear / Delete", "zh": "清除/删除" },
+    "category": { "en": "Edit", "zh": "编辑" }
   },
   {
-    "key": "Ctrl + R",
-    "description": { "en": "Speed/Duration", "zh": "速度/持续时间" },
-    "category": { "en": "Clip", "zh": "素材" }
+    "key": "Shift + Delete",
+    "description": { "en": "Ripple Delete", "zh": "波纹删除" },
+    "category": { "en": "Edit", "zh": "编辑" }
   },
   {
-    "key": "G",
-    "description": { "en": "Audio Gain", "zh": "音频增益" },
-    "category": { "en": "Clip", "zh": "素材" }
+    "key": "Ctrl + Shift + /",
+    "description": { "en": "Duplicate", "zh": "复制" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + A",
+    "description": { "en": "Select All", "zh": "全选" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + A",
+    "description": { "en": "Deselect All", "zh": "取消全选" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + F",
+    "description": { "en": "Find", "zh": "查找" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + K",
+    "description": { "en": "Add Edit (Cut at Playhead)", "zh": "添加编辑点" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + K",
+    "description": { "en": "Add Edit to All Tracks", "zh": "添加编辑点到所有轨道" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "E",
+    "description": { "en": "Extend Edit to Playhead", "zh": "将编辑点扩展到播放头" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + E",
+    "description": { "en": "Edit Original", "zh": "编辑原稿" },
+    "category": { "en": "Edit", "zh": "编辑" }
   },
   {
     "key": "V",
@@ -65,18 +170,18 @@
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
-    "key": "C",
-    "description": { "en": "Razor Tool", "zh": "剃刀工具" },
-    "category": { "en": "Tools", "zh": "工具" }
-  },
-  {
     "key": "A",
-    "description": { "en": "Track Select Forward", "zh": "向前选择轨道" },
+    "description": { "en": "Track Select Forward Tool", "zh": "向前轨道选择工具" },
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
     "key": "Shift + A",
-    "description": { "en": "Track Select Backward", "zh": "向后选择轨道" },
+    "description": { "en": "Track Select Backward Tool", "zh": "向后轨道选择工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "C",
+    "description": { "en": "Razor Tool", "zh": "剃刀工具" },
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
@@ -115,68 +220,488 @@
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
+    "key": "Z",
+    "description": { "en": "Zoom Tool", "zh": "缩放工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
     "key": "T",
     "description": { "en": "Type Tool", "zh": "文字工具" },
     "category": { "en": "Tools", "zh": "工具" }
   },
   {
+    "key": "O",
+    "description": { "en": "Ellipse Tool", "zh": "椭圆工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
     "key": "Space",
     "description": { "en": "Play/Stop", "zh": "播放/停止" },
-    "category": { "en": "Timeline", "zh": "时间轴" }
+    "category": { "en": "Playback", "zh": "播放" }
   },
   {
-    "key": "J",
-    "description": { "en": "Shuttle Left", "zh": "倒放" },
-    "category": { "en": "Timeline", "zh": "时间轴" }
-  },
-  {
-    "key": "K",
-    "description": { "en": "Shuttle Stop", "zh": "停止播放" },
-    "category": { "en": "Timeline", "zh": "时间轴" }
+    "key": "Enter",
+    "description": { "en": "Render Effects in Work Area", "zh": "渲染工作区效果" },
+    "category": { "en": "Playback", "zh": "播放" }
   },
   {
     "key": "L",
-    "description": { "en": "Shuttle Right", "zh": "快进" },
-    "category": { "en": "Timeline", "zh": "时间轴" }
+    "description": { "en": "Play Forward (Shuttle Right)", "zh": "向前播放" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "J",
+    "description": { "en": "Play Backward (Shuttle Left)", "zh": "向后播放" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "K",
+    "description": { "en": "Stop", "zh": "停止" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + L",
+    "description": { "en": "Play Slow Forward", "zh": "慢速向前播放" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + J",
+    "description": { "en": "Play Slow Backward", "zh": "慢速向后播放" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + Space",
+    "description": { "en": "Play Around", "zh": "循环播放" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Right Arrow",
+    "description": { "en": "Step Forward (1 Frame)", "zh": "向前一帧" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Left Arrow",
+    "description": { "en": "Step Backward (1 Frame)", "zh": "向后一帧" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + Right Arrow",
+    "description": { "en": "Step Forward (5 Frames)", "zh": "向前五帧" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + Left Arrow",
+    "description": { "en": "Step Backward (5 Frames)", "zh": "向后五帧" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Home",
+    "description": { "en": "Go to Beginning", "zh": "转到开头" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "End",
+    "description": { "en": "Go to End", "zh": "转到结尾" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + Home",
+    "description": { "en": "Go to Beginning of Selection", "zh": "转到选区开头" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + End",
+    "description": { "en": "Go to End of Selection", "zh": "转到选区结尾" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Up Arrow",
+    "description": { "en": "Go to Previous Edit Point", "zh": "转到上一编辑点" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Down Arrow",
+    "description": { "en": "Go to Next Edit Point", "zh": "转到下一编辑点" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + Up Arrow",
+    "description": { "en": "Go to Previous Edit Point (Any Track)", "zh": "转到上一编辑点 (任意轨道)" },
+    "category": { "en": "Playback", "zh": "播放" }
+  },
+  {
+    "key": "Shift + Down Arrow",
+    "description": { "en": "Go to Next Edit Point (Any Track)", "zh": "转到下一编辑点 (任意轨道)" },
+    "category": { "en": "Playback", "zh": "播放" }
   },
   {
     "key": "I",
     "description": { "en": "Mark In", "zh": "标记入点" },
-    "category": { "en": "Timeline", "zh": "时间轴" }
+    "category": { "en": "Markers", "zh": "标记" }
   },
   {
     "key": "O",
     "description": { "en": "Mark Out", "zh": "标记出点" },
-    "category": { "en": "Timeline", "zh": "时间轴" }
+    "category": { "en": "Markers", "zh": "标记" }
   },
   {
     "key": "X",
     "description": { "en": "Mark Clip", "zh": "标记素材" },
+    "category": { "en": "Markers", "zh": "标记" }
+  },
+  {
+    "key": "/",
+    "description": { "en": "Mark Selection", "zh": "标记选区" },
+    "category": { "en": "Markers", "zh": "标记" }
+  },
+  {
+    "key": "Ctrl + Shift + I",
+    "description": { "en": "Clear In", "zh": "清除入点" },
+    "category": { "en": "Markers", "zh": "标记" }
+  },
+  {
+    "key": "Ctrl + Shift + O",
+    "description": { "en": "Clear Out", "zh": "清除出点" },
+    "category": { "en": "Markers", "zh": "标记" }
+  },
+  {
+    "key": "Ctrl + Shift + X",
+    "description": { "en": "Clear In and Out", "zh": "清除入点和出点" },
+    "category": { "en": "Markers", "zh": "标记" }
+  },
+  {
+    "key": "Shift + I",
+    "description": { "en": "Go to In", "zh": "转到入点" },
+    "category": { "en": "Markers", "zh": "标记" }
+  },
+  {
+    "key": "Shift + O",
+    "description": { "en": "Go to Out", "zh": "转到出点" },
+    "category": { "en": "Markers", "zh": "标记" }
+  },
+  {
+    "key": "M",
+    "description": { "en": "Add Marker", "zh": "添加标记" },
+    "category": { "en": "Markers", "zh": "标记" }
+  },
+  {
+    "key": "Shift + M",
+    "description": { "en": "Go to Next Marker", "zh": "转到下一标记" },
+    "category": { "en": "Markers", "zh": "标记" }
+  },
+  {
+    "key": "Ctrl + Shift + M",
+    "description": { "en": "Go to Previous Marker", "zh": "转到上一标记" },
+    "category": { "en": "Markers", "zh": "标记" }
+  },
+  {
+    "key": "Ctrl + Alt + M",
+    "description": { "en": "Clear All Markers", "zh": "清除所有标记" },
+    "category": { "en": "Markers", "zh": "标记" }
+  },
+  {
+    "key": ",",
+    "description": { "en": "Insert", "zh": "插入" },
     "category": { "en": "Timeline", "zh": "时间轴" }
   },
   {
-    "key": "Ctrl + K",
-    "description": { "en": "Add Edit", "zh": "添加编辑点 (切断)" },
+    "key": ".",
+    "description": { "en": "Overwrite", "zh": "覆盖" },
     "category": { "en": "Timeline", "zh": "时间轴" }
   },
   {
-    "key": "Shift + Delete",
-    "description": { "en": "Ripple Delete", "zh": "波纹删除" },
+    "key": ";",
+    "description": { "en": "Lift", "zh": "提升" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "'",
+    "description": { "en": "Extract", "zh": "提取" },
     "category": { "en": "Timeline", "zh": "时间轴" }
   },
   {
     "key": "{{PLUS}}",
-    "description": { "en": "Zoom In", "zh": "放大时间轴" },
+    "description": { "en": "Zoom In Timeline", "zh": "放大时间轴" },
     "category": { "en": "Timeline", "zh": "时间轴" }
   },
   {
-    "key": "-",
-    "description": { "en": "Zoom Out", "zh": "缩小时间轴" },
+    "key": "{{MINUS}}",
+    "description": { "en": "Zoom Out Timeline", "zh": "缩小时间轴" },
     "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "\\",
+    "description": { "en": "Fit Sequence in Timeline", "zh": "序列适合时间轴" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "Ctrl + Alt + K",
+    "description": { "en": "Add Keyframe", "zh": "添加关键帧" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "Q",
+    "description": { "en": "Trim Edit to Playhead (Start)", "zh": "修剪编辑到播放头 (开始)" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "W",
+    "description": { "en": "Trim Edit to Playhead (End)", "zh": "修剪编辑到播放头 (结束)" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "D",
+    "description": { "en": "Select Clip at Playhead", "zh": "选择播放头处的素材" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "F",
+    "description": { "en": "Match Frame", "zh": "匹配帧" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "Shift + R",
+    "description": { "en": "Reverse Match Frame", "zh": "反向匹配帧" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "S",
+    "description": { "en": "Toggle Snap", "zh": "切换对齐" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "Alt + [",
+    "description": { "en": "Set In Point at Playhead", "zh": "设置入点到播放头" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "Alt + ]",
+    "description": { "en": "Set Out Point at Playhead", "zh": "设置出点到播放头" },
+    "category": { "en": "Timeline", "zh": "时间轴" }
+  },
+  {
+    "key": "Ctrl + L",
+    "description": { "en": "Link/Unlink Clips", "zh": "链接/取消链接" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + G",
+    "description": { "en": "Group Clips", "zh": "编组素材" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + Shift + G",
+    "description": { "en": "Ungroup Clips", "zh": "取消编组" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + R",
+    "description": { "en": "Speed/Duration", "zh": "速度/持续时间" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Shift + G",
+    "description": { "en": "Audio Channels", "zh": "音频声道" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "G",
+    "description": { "en": "Audio Gain", "zh": "音频增益" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + U",
+    "description": { "en": "Make Subclip", "zh": "制作子剪辑" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Shift + E",
+    "description": { "en": "Enable/Disable Clip", "zh": "启用/禁用素材" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + Shift + [",
+    "description": { "en": "Send Backward", "zh": "后移一层" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + Shift + ]",
+    "description": { "en": "Bring Forward", "zh": "前移一层" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + [",
+    "description": { "en": "Send to Back", "zh": "置于底层" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + ]",
+    "description": { "en": "Bring to Front", "zh": "置于顶层" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + Alt + Left Arrow",
+    "description": { "en": "Nudge Left (1 Frame)", "zh": "向左微移 (一帧)" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + Alt + Right Arrow",
+    "description": { "en": "Nudge Right (1 Frame)", "zh": "向右微移 (一帧)" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + Left Arrow",
+    "description": { "en": "Nudge Left (5 Frames)", "zh": "向左微移 (五帧)" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + Right Arrow",
+    "description": { "en": "Nudge Right (5 Frames)", "zh": "向右微移 (五帧)" },
+    "category": { "en": "Clip", "zh": "素材" }
+  },
+  {
+    "key": "Alt + Shift + 1",
+    "description": { "en": "Video Track 1 Target", "zh": "视频轨道 1 目标" },
+    "category": { "en": "Tracks", "zh": "轨道" }
+  },
+  {
+    "key": "Alt + Shift + 2",
+    "description": { "en": "Video Track 2 Target", "zh": "视频轨道 2 目标" },
+    "category": { "en": "Tracks", "zh": "轨道" }
+  },
+  {
+    "key": "Alt + Shift + 3",
+    "description": { "en": "Video Track 3 Target", "zh": "视频轨道 3 目标" },
+    "category": { "en": "Tracks", "zh": "轨道" }
+  },
+  {
+    "key": "Alt + 1",
+    "description": { "en": "Audio Track 1 Target", "zh": "音频轨道 1 目标" },
+    "category": { "en": "Tracks", "zh": "轨道" }
+  },
+  {
+    "key": "Alt + 2",
+    "description": { "en": "Audio Track 2 Target", "zh": "音频轨道 2 目标" },
+    "category": { "en": "Tracks", "zh": "轨道" }
+  },
+  {
+    "key": "Alt + 3",
+    "description": { "en": "Audio Track 3 Target", "zh": "音频轨道 3 目标" },
+    "category": { "en": "Tracks", "zh": "轨道" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + A",
+    "description": { "en": "Add Video Track", "zh": "添加视频轨道" },
+    "category": { "en": "Tracks", "zh": "轨道" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + D",
+    "description": { "en": "Add Audio Track", "zh": "添加音频轨道" },
+    "category": { "en": "Tracks", "zh": "轨道" }
+  },
+  {
+    "key": "Shift + T",
+    "description": { "en": "Toggle Track Output", "zh": "切换轨道输出" },
+    "category": { "en": "Tracks", "zh": "轨道" }
+  },
+  {
+    "key": "Shift + S",
+    "description": { "en": "Toggle Audio Sync Lock", "zh": "切换音频同步锁定" },
+    "category": { "en": "Tracks", "zh": "轨道" }
+  },
+  {
+    "key": "Shift + 1",
+    "description": { "en": "Edit", "zh": "编辑" },
+    "category": { "en": "Workspace", "zh": "工作区" }
+  },
+  {
+    "key": "Shift + 2",
+    "description": { "en": "Color", "zh": "颜色" },
+    "category": { "en": "Workspace", "zh": "工作区" }
+  },
+  {
+    "key": "Shift + 3",
+    "description": { "en": "Effects", "zh": "效果" },
+    "category": { "en": "Workspace", "zh": "工作区" }
+  },
+  {
+    "key": "Shift + 4",
+    "description": { "en": "Audio", "zh": "音频" },
+    "category": { "en": "Workspace", "zh": "工作区" }
+  },
+  {
+    "key": "Shift + 5",
+    "description": { "en": "Graphics", "zh": "图形" },
+    "category": { "en": "Workspace", "zh": "工作区" }
+  },
+  {
+    "key": "Shift + 6",
+    "description": { "en": "Libraries", "zh": "库" },
+    "category": { "en": "Workspace", "zh": "工作区" }
+  },
+  {
+    "key": "Alt + Shift + 0",
+    "description": { "en": "Reset Current Workspace", "zh": "重置当前工作区" },
+    "category": { "en": "Workspace", "zh": "工作区" }
+  },
+  {
+    "key": "Ctrl + Shift + E",
+    "description": { "en": "Export Workspace", "zh": "导出工作区" },
+    "category": { "en": "Workspace", "zh": "工作区" }
   },
   {
     "key": "`",
     "description": { "en": "Maximize Panel", "zh": "最大化面板" },
     "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + `",
+    "description": { "en": "Toggle Full Screen", "zh": "切换全屏" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Shift + 7",
+    "description": { "en": "Source Monitor", "zh": "源监视器" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Shift + 8",
+    "description": { "en": "Program Monitor", "zh": "节目监视器" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Shift + 9",
+    "description": { "en": "Timeline Panel", "zh": "时间轴面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Shift + 0",
+    "description": { "en": "Effect Controls", "zh": "效果控件" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + Shift + 1",
+    "description": { "en": "Project Panel", "zh": "项目面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + E",
+    "description": { "en": "Essential Sound Panel", "zh": "基本声音面板" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + Shift + 9",
+    "description": { "en": "Audio Track Mixer", "zh": "音频轨道混合器" },
+    "category": { "en": "Window", "zh": "窗口" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + K",
+    "description": { "en": "Keyboard Shortcuts", "zh": "键盘快捷键" },
+    "category": { "en": "Help", "zh": "帮助" }
+  },
+  {
+    "key": "F1",
+    "description": { "en": "Help", "zh": "帮助" },
+    "category": { "en": "Help", "zh": "帮助" }
   }
 ]

@@ -4,29 +4,53 @@ import { useLocale } from '../composables/useLocale';
 const { t } = useLocale();
 
 const apps = [
-  { 
-    id: 'ps', 
-    name: 'Photoshop', 
+  {
+    id: 'ps',
+    name: 'Photoshop',
     color: 'border-blue-600 text-blue-700 dark:text-blue-400',
     logoBg: 'bg-[#001E36]',
     logoText: 'text-[#31A8FF]',
     bgHover: 'hover:shadow-blue-500/10'
   },
-  { 
-    id: 'ai', 
-    name: 'Illustrator', 
+  {
+    id: 'ai',
+    name: 'Illustrator',
     color: 'border-orange-500 text-orange-600 dark:text-orange-400',
     logoBg: 'bg-[#330000]',
     logoText: 'text-[#FF9A00]',
     bgHover: 'hover:shadow-orange-500/10'
   },
-  { 
-    id: 'pr', 
-    name: 'Premiere Pro', 
+  {
+    id: 'ae',
+    name: 'After Effects',
+    color: 'border-violet-600 text-violet-700 dark:text-violet-400',
+    logoBg: 'bg-[#00005B]',
+    logoText: 'text-[#9999FF]',
+    bgHover: 'hover:shadow-violet-500/10'
+  },
+  {
+    id: 'pr',
+    name: 'Premiere Pro',
     color: 'border-purple-600 text-purple-700 dark:text-purple-400',
     logoBg: 'bg-[#00005B]',
     logoText: 'text-[#9999FF]',
     bgHover: 'hover:shadow-purple-500/10'
+  },
+  {
+    id: 'lr',
+    name: 'Lightroom',
+    color: 'border-sky-500 text-sky-600 dark:text-sky-400',
+    logoBg: 'bg-[#001D26]',
+    logoText: 'text-[#31A8FF]',
+    bgHover: 'hover:shadow-sky-500/10'
+  },
+  {
+    id: 'au',
+    name: 'Audition',
+    color: 'border-green-500 text-green-600 dark:text-green-400',
+    logoBg: 'bg-[#00393B]',
+    logoText: 'text-[#00E4BB]',
+    bgHover: 'hover:shadow-green-500/10'
   },
 ];
 </script>
@@ -49,7 +73,7 @@ const apps = [
         :class="app.bgHover"
       >
         <!-- Top Accent Line -->
-        <div class="absolute top-0 left-0 w-full h-1.5" :class="app.color.split(' ')[0].replace('text', 'bg').replace('border', 'bg')"></div>
+        <div class="absolute top-0 left-0 w-full h-1.5" :class="(app.color.split(' ')[0] ?? '').replace('text', 'bg').replace('border', 'bg')"></div>
         
         <div class="flex-grow">
            <!-- App Icon (Adobe Style) -->

@@ -1,4 +1,5 @@
 import { ref, watch } from 'vue';
+import type { Shortcut } from '../types';
 
 // Store favorites as a map: appId -> array of shortcut unique IDs
 // Unique ID construction: `${category}-${key}` (simple enough for this dataset)
@@ -45,7 +46,7 @@ export function useFavorites() {
   };
 
   // Helper to generate a stable ID for a shortcut
-  const generateId = (shortcut: any) => {
+  const generateId = (shortcut: Shortcut) => {
     // Using category.en and key to ensure uniqueness across languages
     return `${shortcut.category.en}-${shortcut.key}`;
   };

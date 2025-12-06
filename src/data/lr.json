@@ -1,0 +1,757 @@
+[
+  {
+    "key": "Ctrl + N",
+    "description": { "en": "New Catalog", "zh": "新建目录" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + O",
+    "description": { "en": "Open Catalog", "zh": "打开目录" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Shift + I",
+    "description": { "en": "Import Photos", "zh": "导入照片" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Shift + E",
+    "description": { "en": "Export Photos", "zh": "导出照片" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + E",
+    "description": { "en": "Export with Previous Settings", "zh": "使用上次设置导出" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + P",
+    "description": { "en": "Print", "zh": "打印" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Shift + P",
+    "description": { "en": "Page Setup", "zh": "页面设置" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + S",
+    "description": { "en": "Save Metadata to File", "zh": "将元数据保存到文件" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Q",
+    "description": { "en": "Quit Lightroom", "zh": "退出 Lightroom" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + ,",
+    "description": { "en": "Preferences", "zh": "首选项" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Alt + ,",
+    "description": { "en": "Catalog Settings", "zh": "目录设置" },
+    "category": { "en": "File", "zh": "文件" }
+  },
+  {
+    "key": "Ctrl + Z",
+    "description": { "en": "Undo", "zh": "撤销" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + Z",
+    "description": { "en": "Redo", "zh": "重做" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + X",
+    "description": { "en": "Cut", "zh": "剪切" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + C",
+    "description": { "en": "Copy", "zh": "复制" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + V",
+    "description": { "en": "Paste", "zh": "粘贴" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + A",
+    "description": { "en": "Select All", "zh": "全选" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + D",
+    "description": { "en": "Deselect All", "zh": "取消全选" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + C",
+    "description": { "en": "Copy Develop Settings", "zh": "复制修改设置" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Shift + V",
+    "description": { "en": "Paste Develop Settings", "zh": "粘贴修改设置" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "Ctrl + Alt + V",
+    "description": { "en": "Paste Settings from Previous", "zh": "从上一张粘贴设置" },
+    "category": { "en": "Edit", "zh": "编辑" }
+  },
+  {
+    "key": "G",
+    "description": { "en": "Grid View (Library)", "zh": "网格视图（图库）" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "E",
+    "description": { "en": "Loupe View (Library)", "zh": "放大视图（图库）" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "C",
+    "description": { "en": "Compare View", "zh": "比较视图" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "N",
+    "description": { "en": "Survey View", "zh": "浏览视图" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "D",
+    "description": { "en": "Develop Module", "zh": "修改照片模块" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "J",
+    "description": { "en": "Toggle Grid View Style", "zh": "切换网格视图样式" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "Ctrl + J",
+    "description": { "en": "Library View Options", "zh": "图库视图选项" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "Tab",
+    "description": { "en": "Show/Hide Side Panels", "zh": "显示/隐藏侧面板" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "Shift + Tab",
+    "description": { "en": "Show/Hide All Panels", "zh": "显示/隐藏所有面板" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "T",
+    "description": { "en": "Show/Hide Toolbar", "zh": "显示/隐藏工具栏" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "F5",
+    "description": { "en": "Show/Hide Module Picker", "zh": "显示/隐藏模块选择器" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "F6",
+    "description": { "en": "Show/Hide Filmstrip", "zh": "显示/隐藏胶片显示窗格" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "F7",
+    "description": { "en": "Show/Hide Left Panels", "zh": "显示/隐藏左侧面板" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "F8",
+    "description": { "en": "Show/Hide Right Panels", "zh": "显示/隐藏右侧面板" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "\\",
+    "description": { "en": "Show/Hide Filter Bar", "zh": "显示/隐藏过滤器栏" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "Ctrl + L",
+    "description": { "en": "Enable/Disable Filters", "zh": "启用/禁用过滤器" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "Ctrl + F",
+    "description": { "en": "Find", "zh": "查找" },
+    "category": { "en": "Library", "zh": "图库" }
+  },
+  {
+    "key": "0",
+    "description": { "en": "Set Rating to 0 Stars", "zh": "设置评级为 0 星" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "1",
+    "description": { "en": "Set Rating to 1 Star", "zh": "设置评级为 1 星" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "2",
+    "description": { "en": "Set Rating to 2 Stars", "zh": "设置评级为 2 星" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "3",
+    "description": { "en": "Set Rating to 3 Stars", "zh": "设置评级为 3 星" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "4",
+    "description": { "en": "Set Rating to 4 Stars", "zh": "设置评级为 4 星" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "5",
+    "description": { "en": "Set Rating to 5 Stars", "zh": "设置评级为 5 星" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "[",
+    "description": { "en": "Decrease Rating", "zh": "降低评级" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "]",
+    "description": { "en": "Increase Rating", "zh": "提高评级" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "6",
+    "description": { "en": "Red Label", "zh": "红色标签" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "7",
+    "description": { "en": "Yellow Label", "zh": "黄色标签" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "8",
+    "description": { "en": "Green Label", "zh": "绿色标签" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "9",
+    "description": { "en": "Blue Label", "zh": "蓝色标签" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "P",
+    "description": { "en": "Flag as Pick", "zh": "标记为精选" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "X",
+    "description": { "en": "Flag as Rejected", "zh": "标记为排除" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "U",
+    "description": { "en": "Unflag", "zh": "取消标记" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "Ctrl + Up",
+    "description": { "en": "Increase Flag Status", "zh": "提高标记状态" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "Ctrl + Down",
+    "description": { "en": "Decrease Flag Status", "zh": "降低标记状态" },
+    "category": { "en": "Rating & Labels", "zh": "评级和标签" }
+  },
+  {
+    "key": "V",
+    "description": { "en": "Auto White Balance", "zh": "自动白平衡" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Ctrl + U",
+    "description": { "en": "Auto Tone", "zh": "自动色调" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Ctrl + Shift + U",
+    "description": { "en": "Auto White Balance", "zh": "自动白平衡" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Ctrl + '",
+    "description": { "en": "Create Virtual Copy", "zh": "创建虚拟副本" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Ctrl + Shift + R",
+    "description": { "en": "Reset All Settings", "zh": "重置所有设置" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + R",
+    "description": { "en": "Reset to Adobe Default", "zh": "重置为 Adobe 默认值" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "\\",
+    "description": { "en": "Before/After View", "zh": "前后对比视图" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Y",
+    "description": { "en": "Before/After Left/Right", "zh": "前后左右对比" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Alt + Y",
+    "description": { "en": "Before/After Top/Bottom", "zh": "前后上下对比" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Shift + Y",
+    "description": { "en": "Before/After Split", "zh": "前后分割对比" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + Left",
+    "description": { "en": "Copy Before to After", "zh": "将前复制到后" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + Right",
+    "description": { "en": "Copy After to Before", "zh": "将后复制到前" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Ctrl + N",
+    "description": { "en": "New Snapshot", "zh": "新建快照" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Ctrl + Shift + N",
+    "description": { "en": "New Preset", "zh": "新建预设" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "Ctrl + Alt + N",
+    "description": { "en": "New Preset Folder", "zh": "新建预设文件夹" },
+    "category": { "en": "Develop", "zh": "修改照片" }
+  },
+  {
+    "key": "R",
+    "description": { "en": "Crop Tool", "zh": "裁剪工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Q",
+    "description": { "en": "Spot Removal Tool", "zh": "污点去除工具" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "K",
+    "description": { "en": "Adjustment Brush", "zh": "调整画笔" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "M",
+    "description": { "en": "Graduated Filter", "zh": "渐变滤镜" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + M",
+    "description": { "en": "Radial Filter", "zh": "径向滤镜" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "A",
+    "description": { "en": "Constrain Aspect Ratio (Crop)", "zh": "约束纵横比（裁剪）" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "X",
+    "description": { "en": "Rotate Crop Aspect Ratio", "zh": "旋转裁剪纵横比" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "O",
+    "description": { "en": "Cycle Crop Grid Overlay", "zh": "循环裁剪网格叠加" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + O",
+    "description": { "en": "Cycle Crop Grid Orientation", "zh": "循环裁剪网格方向" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Ctrl + Alt + R",
+    "description": { "en": "Reset Crop", "zh": "重置裁剪" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "W",
+    "description": { "en": "White Balance Selector", "zh": "白平衡选择器" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "H",
+    "description": { "en": "Hide/Show Pins", "zh": "隐藏/显示图钉" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "[",
+    "description": { "en": "Decrease Brush Size", "zh": "减小画笔大小" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "]",
+    "description": { "en": "Increase Brush Size", "zh": "增大画笔大小" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + [",
+    "description": { "en": "Decrease Brush Feather", "zh": "减小画笔羽化" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Shift + ]",
+    "description": { "en": "Increase Brush Feather", "zh": "增大画笔羽化" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "/",
+    "description": { "en": "Toggle Brush Between A and B", "zh": "在画笔 A 和 B 之间切换" },
+    "category": { "en": "Tools", "zh": "工具" }
+  },
+  {
+    "key": "Ctrl + {{PLUS}}",
+    "description": { "en": "Zoom In", "zh": "放大" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + {{MINUS}}",
+    "description": { "en": "Zoom Out", "zh": "缩小" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Space",
+    "description": { "en": "Toggle Loupe Zoom", "zh": "切换放大视图缩放" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Z",
+    "description": { "en": "Zoom to Fit/100%", "zh": "缩放到适合/100%" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Shift + F",
+    "description": { "en": "Full Screen Preview", "zh": "全屏预览" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "F",
+    "description": { "en": "Cycle Screen Modes", "zh": "循环屏幕模式" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "L",
+    "description": { "en": "Cycle Lights Out Modes", "zh": "循环熄灯模式" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "I",
+    "description": { "en": "Show/Hide Info Overlay", "zh": "显示/隐藏信息叠加" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + I",
+    "description": { "en": "Show/Hide Info Overlay in Loupe", "zh": "在放大视图中显示/隐藏信息叠加" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + O",
+    "description": { "en": "Show Clipping Warnings", "zh": "显示裁剪警告" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Shift + H",
+    "description": { "en": "Show/Hide Badges", "zh": "显示/隐藏标记" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + Alt + S",
+    "description": { "en": "Enable Soft Proofing", "zh": "启用软校样" },
+    "category": { "en": "View", "zh": "视图" }
+  },
+  {
+    "key": "Ctrl + G",
+    "description": { "en": "Group into Stack", "zh": "编组为堆叠" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Ctrl + Shift + G",
+    "description": { "en": "Unstack", "zh": "取消堆叠" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "S",
+    "description": { "en": "Toggle Stack", "zh": "切换堆叠" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Shift + S",
+    "description": { "en": "Move to Top of Stack", "zh": "移至堆叠顶部" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Shift + [",
+    "description": { "en": "Move Up in Stack", "zh": "在堆叠中上移" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Shift + ]",
+    "description": { "en": "Move Down in Stack", "zh": "在堆叠中下移" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Ctrl + R",
+    "description": { "en": "Show in Explorer/Finder", "zh": "在资源管理器/访达中显示" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Ctrl + E",
+    "description": { "en": "Edit in Photoshop", "zh": "在 Photoshop 中编辑" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Ctrl + Alt + E",
+    "description": { "en": "Open as Smart Object in Photoshop", "zh": "在 Photoshop 中作为智能对象打开" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Delete",
+    "description": { "en": "Delete Photo", "zh": "删除照片" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Ctrl + Backspace",
+    "description": { "en": "Delete Rejected Photos", "zh": "删除排除的照片" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Ctrl + [",
+    "description": { "en": "Rotate Left", "zh": "向左旋转" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Ctrl + ]",
+    "description": { "en": "Rotate Right", "zh": "向右旋转" },
+    "category": { "en": "Photo", "zh": "照片" }
+  },
+  {
+    "key": "Ctrl + T",
+    "description": { "en": "Add Keyword Tag", "zh": "添加关键字标签" },
+    "category": { "en": "Metadata", "zh": "元数据" }
+  },
+  {
+    "key": "Ctrl + K",
+    "description": { "en": "Add Keywords", "zh": "添加关键字" },
+    "category": { "en": "Metadata", "zh": "元数据" }
+  },
+  {
+    "key": "Ctrl + Shift + K",
+    "description": { "en": "Edit Keywords", "zh": "编辑关键字" },
+    "category": { "en": "Metadata", "zh": "元数据" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + C",
+    "description": { "en": "Copy Metadata", "zh": "复制元数据" },
+    "category": { "en": "Metadata", "zh": "元数据" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + V",
+    "description": { "en": "Paste Metadata", "zh": "粘贴元数据" },
+    "category": { "en": "Metadata", "zh": "元数据" }
+  },
+  {
+    "key": "Ctrl + Shift + M",
+    "description": { "en": "Open in Map Module", "zh": "在地图模块中打开" },
+    "category": { "en": "Metadata", "zh": "元数据" }
+  },
+  {
+    "key": "Left",
+    "description": { "en": "Previous Photo", "zh": "上一张照片" },
+    "category": { "en": "Navigation", "zh": "导航" }
+  },
+  {
+    "key": "Right",
+    "description": { "en": "Next Photo", "zh": "下一张照片" },
+    "category": { "en": "Navigation", "zh": "导航" }
+  },
+  {
+    "key": "Home",
+    "description": { "en": "First Photo", "zh": "第一张照片" },
+    "category": { "en": "Navigation", "zh": "导航" }
+  },
+  {
+    "key": "End",
+    "description": { "en": "Last Photo", "zh": "最后一张照片" },
+    "category": { "en": "Navigation", "zh": "导航" }
+  },
+  {
+    "key": "Ctrl + Shift + Left",
+    "description": { "en": "Select Previous Photo", "zh": "选择上一张照片" },
+    "category": { "en": "Navigation", "zh": "导航" }
+  },
+  {
+    "key": "Ctrl + Shift + Right",
+    "description": { "en": "Select Next Photo", "zh": "选择下一张照片" },
+    "category": { "en": "Navigation", "zh": "导航" }
+  },
+  {
+    "key": "Page Up",
+    "description": { "en": "Scroll Up in Grid", "zh": "在网格中向上滚动" },
+    "category": { "en": "Navigation", "zh": "导航" }
+  },
+  {
+    "key": "Page Down",
+    "description": { "en": "Scroll Down in Grid", "zh": "在网格中向下滚动" },
+    "category": { "en": "Navigation", "zh": "导航" }
+  },
+  {
+    "key": "Ctrl + B",
+    "description": { "en": "Add to Quick Collection", "zh": "添加到快速收藏夹" },
+    "category": { "en": "Collections", "zh": "收藏夹" }
+  },
+  {
+    "key": "Ctrl + Shift + B",
+    "description": { "en": "Show Quick Collection", "zh": "显示快速收藏夹" },
+    "category": { "en": "Collections", "zh": "收藏夹" }
+  },
+  {
+    "key": "Ctrl + Alt + B",
+    "description": { "en": "Save Quick Collection", "zh": "保存快速收藏夹" },
+    "category": { "en": "Collections", "zh": "收藏夹" }
+  },
+  {
+    "key": "Ctrl + Alt + Shift + B",
+    "description": { "en": "Clear Quick Collection", "zh": "清除快速收藏夹" },
+    "category": { "en": "Collections", "zh": "收藏夹" }
+  },
+  {
+    "key": "B",
+    "description": { "en": "Add to Target Collection", "zh": "添加到目标收藏夹" },
+    "category": { "en": "Collections", "zh": "收藏夹" }
+  },
+  {
+    "key": "Ctrl + Alt + 1",
+    "description": { "en": "Library Module", "zh": "图库模块" },
+    "category": { "en": "Modules", "zh": "模块" }
+  },
+  {
+    "key": "Ctrl + Alt + 2",
+    "description": { "en": "Develop Module", "zh": "修改照片模块" },
+    "category": { "en": "Modules", "zh": "模块" }
+  },
+  {
+    "key": "Ctrl + Alt + 3",
+    "description": { "en": "Map Module", "zh": "地图模块" },
+    "category": { "en": "Modules", "zh": "模块" }
+  },
+  {
+    "key": "Ctrl + Alt + 4",
+    "description": { "en": "Book Module", "zh": "画册模块" },
+    "category": { "en": "Modules", "zh": "模块" }
+  },
+  {
+    "key": "Ctrl + Alt + 5",
+    "description": { "en": "Slideshow Module", "zh": "幻灯片放映模块" },
+    "category": { "en": "Modules", "zh": "模块" }
+  },
+  {
+    "key": "Ctrl + Alt + 6",
+    "description": { "en": "Print Module", "zh": "打印模块" },
+    "category": { "en": "Modules", "zh": "模块" }
+  },
+  {
+    "key": "Ctrl + Alt + 7",
+    "description": { "en": "Web Module", "zh": "Web 模块" },
+    "category": { "en": "Modules", "zh": "模块" }
+  },
+  {
+    "key": "Enter",
+    "description": { "en": "Play Slideshow", "zh": "播放幻灯片" },
+    "category": { "en": "Slideshow", "zh": "幻灯片放映" }
+  },
+  {
+    "key": "Ctrl + Enter",
+    "description": { "en": "Preview Slideshow", "zh": "预览幻灯片" },
+    "category": { "en": "Slideshow", "zh": "幻灯片放映" }
+  },
+  {
+    "key": "Space",
+    "description": { "en": "Pause Slideshow", "zh": "暂停幻灯片" },
+    "category": { "en": "Slideshow", "zh": "幻灯片放映" }
+  },
+  {
+    "key": "Escape",
+    "description": { "en": "Stop Slideshow", "zh": "停止幻灯片" },
+    "category": { "en": "Slideshow", "zh": "幻灯片放映" }
+  },
+  {
+    "key": "Ctrl + J",
+    "description": { "en": "Export Slideshow as PDF", "zh": "将幻灯片导出为 PDF" },
+    "category": { "en": "Slideshow", "zh": "幻灯片放映" }
+  },
+  {
+    "key": "Ctrl + Shift + J",
+    "description": { "en": "Export Slideshow as Video", "zh": "将幻灯片导出为视频" },
+    "category": { "en": "Slideshow", "zh": "幻灯片放映" }
+  },
+  {
+    "key": "Ctrl + Alt + P",
+    "description": { "en": "Print One Copy", "zh": "打印一份" },
+    "category": { "en": "Print", "zh": "打印" }
+  },
+  {
+    "key": "Ctrl + Shift + Left",
+    "description": { "en": "Previous Page", "zh": "上一页" },
+    "category": { "en": "Print", "zh": "打印" }
+  },
+  {
+    "key": "Ctrl + Shift + Right",
+    "description": { "en": "Next Page", "zh": "下一页" },
+    "category": { "en": "Print", "zh": "打印" }
+  },
+  {
+    "key": "Ctrl + Shift + Home",
+    "description": { "en": "First Page", "zh": "第一页" },
+    "category": { "en": "Print", "zh": "打印" }
+  },
+  {
+    "key": "Ctrl + Shift + End",
+    "description": { "en": "Last Page", "zh": "最后一页" },
+    "category": { "en": "Print", "zh": "打印" }
+  },
+  {
+    "key": "F1",
+    "description": { "en": "Help", "zh": "帮助" },
+    "category": { "en": "Help", "zh": "帮助" }
+  },
+  {
+    "key": "Ctrl + /",
+    "description": { "en": "Show Shortcuts", "zh": "显示快捷键" },
+    "category": { "en": "Help", "zh": "帮助" }
+  }
+]
