@@ -388,7 +388,10 @@ const highlightText = (text: string) => {
                          text-slate-700 dark:text-slate-200
                          border border-slate-200 dark:border-slate-500
                          shadow-[0_2px_0_0_rgb(203,213,225)] dark:shadow-[0_2px_0_0_rgb(71,85,105)]
-                         transition-all"
+                         hover:translate-y-0.5 hover:shadow-none
+                         hover:from-slate-100 hover:to-slate-50 dark:hover:from-slate-700 dark:hover:to-slate-600
+                         active:translate-y-0.5 active:shadow-none
+                         transition-all duration-75 cursor-pointer"
                 >
                   {{ k }}
                 </kbd>
