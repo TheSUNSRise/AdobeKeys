@@ -261,8 +261,11 @@ const highlightText = (text: string) => {
           :placeholder="searchPlaceholder"
           class="w-full pl-12 pr-24 py-3 bg-white dark:bg-slate-800 rounded-xl shadow-sm text-slate-700 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all text-base"
         >
-        <!-- Stats inside search box -->
-        <div v-if="!loading" class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none">
+        <!-- Stats & ESC hint inside search box -->
+        <div v-if="!loading" class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none gap-2">
+          <kbd v-if="searchQuery" class="px-1.5 py-0.5 text-[10px] font-mono font-medium text-slate-400 dark:text-slate-500 bg-slate-100 dark:bg-slate-700 rounded border border-slate-200 dark:border-slate-600">
+            ESC
+          </kbd>
           <span class="text-xs text-slate-400 dark:text-slate-500 whitespace-nowrap">
             <span v-if="debouncedQuery">{{ filteredShortcuts.length }}/</span>{{ shortcuts.length }}
           </span>
