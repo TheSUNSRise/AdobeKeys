@@ -344,7 +344,10 @@ const highlightText = (text: string) => {
           
           <div class="grid gap-3" :class="viewMode === 'grid' ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1'">
           <div v-for="shortcut in group.items" :key="shortcut.key + shortcut.description[locale]"
-            class="group flex items-center justify-between bg-white dark:bg-slate-800 px-5 py-4 rounded-lg shadow-sm relative"
+            class="group flex items-center justify-between bg-white dark:bg-slate-800 px-5 py-4 rounded-lg shadow-sm relative
+                   border border-transparent hover:border-indigo-200 dark:hover:border-indigo-500/30
+                   hover:shadow-md hover:-translate-y-0.5 hover:bg-slate-50/80 dark:hover:bg-slate-700/50
+                   transition-all duration-200 cursor-default"
             :class="{'flex-col items-start gap-3': viewMode === 'grid', 'flex-row': viewMode === 'list'}"
           >
               <button
